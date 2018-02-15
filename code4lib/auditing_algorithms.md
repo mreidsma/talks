@@ -293,14 +293,12 @@ From [The Revolution Will Not Be Standardized](https://webcast.gigtv.com.au/Medi
 Note:
 But these search results are also the most visible and used parts of our library websites, and so they speak to our users about our values. Yesterday my fellow *Weave Journal of Library User Experience* editor Angela Galvan gave the keynote at VALA in Melbourne. She noted "Glitches are the unintentional exposure of values." For those of us who study algorithms, problematic results give us a clearer window into what an algorithm values. But our users will read that as what we in the library value. It is our responsibility to ensure that the values we claim to have are what are reflected in our tools. Our responsibility doesn't end when we sign the license agreement.
 
-TK: Tweet link to Galvan talk 13m
-
 -----
 
 <h2 style="text-align:center;"><span class="blue">Opportunities:</span></h2>
 
 * Pressures of wealth creation are less direct
-* <span style="color: #222;">Not subject to live A/B testing, <abbr title="Machine Learning">ML</abbr>/<abbr title="Artificial Intelligence">AI</abbr></span>
+* <span style="color: #222;">No A/B testing, Machine Learning BS</span>
 * <span style="color: #222;">Content creators don't "game" the algorithm</span>
 
 Note:
@@ -313,7 +311,7 @@ For one, the pressures of capital and wealth creation are not as direct as in an
 <h2 style="text-align:center;"><span class="blue">Opportunities:</span></h2>
 
 * <span style="color: #bbb;">Pressures of wealth creation are less direct</span>
-* Not subject to live A/B testing, <abbr title="Machine Learning">ML</abbr>/<abbr title="Artificial Intelligence">AI</abbr>
+* No A/B testing, Machine Learning BS
 * <span style="color: #222;">Content creators don't "game" the algorithm</span>
 
 Note:
@@ -324,7 +322,7 @@ Because libraries are licensing this software, we expect that the vendor won't e
 <h2 style="text-align:center;"><span class="blue">Opportunities:</span></h2>
 
 * <span style="color: #bbb;">Pressures of wealth creation are less direct</span>
-* <span style="color: #bbb;">Not subject to live A/B testing, <abbr title="Machine Learning">ML</abbr>/<abbr title="Artificial Intelligence">AI</abbr></span>
+* <span style="color: #bbb;">No A/B testing, Machine Learning BS</span>
 * Content creators don't "game" the algorithm
 
 Note:
