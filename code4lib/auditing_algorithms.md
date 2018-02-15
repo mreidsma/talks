@@ -207,24 +207,6 @@ Primo suggesting Children's Sex Literature as a replacement for Children's Liter
 Note:
 I've also been able to find problematic results from colleagues on Twitter, like this one that Nadaleen Tempelman-Kluit posted from Primo, where it thinks a search for Children's Literature could only be made better by transforming it into a search for Children's Sex Literature.
 
------
-
-![Screenshot of Primo suggesting sex videos](img/primo-video.png)
-
-Primo suggesting sex videos. From [Damn You, Auto Suggest](http://damnyouautosuggest.tumblr.com/post/97741234734/oh-wait-i-can-get-sex-videos-via-licensed)
-
-Note:
-Incidentally, Primo really likes to suggest sex searches. Here it recommends sex videos instead of (I presume) a series of physical therapy videos. (Isolate, Integrate, Perform?)
-
------
-
-![Screenshot of Primo suggesting sex robots](img/primo-robots.png)
-
-Primo suggesting sex robots. From Damn You, Auto Suggest
-
-Note:
-And instead of sex roles, you probably meant sex robots. 
-
 
 -----
 

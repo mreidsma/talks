@@ -129,29 +129,17 @@ I've also been able to find problematic results from colleagues on Twitter, like
 
 ### Slide 18:
 
-Incidentally, Primo really likes to suggest sex searches. Here it recommends sex videos instead of (I presume) a series of physical therapy videos. (Isolate, Integrate, Perform?)
+But algorithms aren't just code and inputs and outputs. They are used by people in order to do something else. We need to study those effects, too, and this is where my research is taking me.
 
 -----
 
 ### Slide 19:
 
-And instead of sex roles, you probably meant sex robots. 
-
------
-
-### Slide 20:
-
-But algorithms aren't just code and inputs and outputs. They are used by people in order to do something else. We need to study those effects, too, and this is where my research is taking me.
-
------
-
-### Slide 21:
-
 Algorithms show and hide possibilities from users, suggesting what a search might really be about. In addition to asking what an algorithm looks at, and what kinds of results it returns, we need to ask how it affects the users who interact with the algorithm and its results. This is where ethnography and user research can come in. I will be talking to users, and running ethnographic experiments over the next year to better understand the impact that algorithmic outputs - both good and bad - have on learning and research.
 
 -----
 
-### Slide 22:
+### Slide 20:
 
 Here is a result that was shared with me by one of our users. It's a known item search for a book on the information needs of LGBT youth that returns only 2 items: the book and a guide to "mental illness." 
 
@@ -161,25 +149,25 @@ But for the user who was searching for this book? What was the impact of seeing 
 
 -----
 
-### Slide 23:
+### Slide 21:
 
 These are challenging, scary, ethical issues. But library search tools are sold as neutral, objective places for learning and research. That is not the case, and part of the reason for auditing our algorithmic tools is to correct this kind of "objective" marketing,  but also to work with vendors to improve the algorithms.
 
 -----
 
-### Slide 24:
+### Slide 22:
 
 A word on the responsibilities of vendors. If your search tool reinforces and reproduces systemic racial, gender, religious, or other biases - it doesn't matter if you "didn't intend" to build a system with those biases. That's what you system does. It is your responsibility to make a system that is fair for all users. Your responsibility doesn't end when we go live with your tool.
 
 -----
 
-### Slide 25:
+### Slide 23:
 
 But these search results are also the most visible and used parts of our library websites, and so they speak to our users about our values. Yesterday my fellow *Weave Journal of Library User Experience* editor Angela Galvan gave the keynote at VALA in Melbourne. She noted "Glitches are the unintentional exposure of values." For those of us who study algorithms, problematic results give us a clearer window into what an algorithm values. But our users will read that as what we in the library value. It is our responsibility to ensure that the values we claim to have are what are reflected in our tools. Our responsibility doesn't end when we sign the license agreement.
 
 -----
 
-### Slide 26:
+### Slide 24:
 
 Now I'm going to try to recruit you to study the algorithms in your library systems. These algorithms are not affected by some of the most challenging parts of researching commercial search algorithms. 
 
@@ -187,19 +175,19 @@ For one, the pressures of capital and wealth creation are not as direct as in an
 
 -----
 
-### Slide 27:
+### Slide 25:
 
 Because libraries are licensing this software, we expect that the vendor won't experiment with new features in our live discovery systems. And as of this moment, none of the vendors appears to be using machine learning algorithms to personalize search results for our users. (It will get there, but some of them are using tables for layout, so I think we're safe for a bit.) We can be pretty sure that all our users are seeing the same results for the same searches (except for some differences in on-campus and off-campus searches.)
 
 -----
 
-### Slide 28:
+### Slide 26:
 
 And the content these search tools index isn't written to be searched in a search engine like web content. Much of it is written without worrying whether anyone will or can read and make sense of it, let alone a search engine. So when a result appears in a search, we can be reasonably sure it is there because of the algorithm, not manipulation on the part of an Assistant Professor of Botany.
 
 -----
 
-### Slide 29:
+### Slide 27:
 
 On the other hand, discovery systems have challenges that are not as common in other algorithmic systems. 
 
@@ -207,13 +195,13 @@ The most obvious is that search results from my discovery instance won't be the 
 
 -----
 
-### Slide 30:
+### Slide 28:
 
 Trying to understand why something appears in a results set can be challenging, because items in a discovery service's index often blend all the varied metadata practices of hundreds or different database providers into one big, messy soup. Of course, they often have a more structured taxonomy, as well, but results may appear because one of your keywords matched a thesaurus entry for a subject term in an obscure database. This metadata opaqueness can complicate our understanding of how algorithms choose results.
 
 -----
 
-### Slide 31:
+### Slide 29:
 
 Finally, if you want to study a tool that isn't the one your institution subscribes to, you may be thwarted by the End User License Agreement for the discovery service. Both (EDS) EBSCO discovery service and OCLC's Worldshare prohibit the search interface from being used by "unauthorized users," which is basically everyone but currently affiliated students, staff, faculty, or patrons at the subscribing institution. 
 
@@ -223,7 +211,7 @@ Even if you could use the interfaces, none of us has the time to manually search
 
 -----
 
-### Slide 32:
+### Slide 30:
 
 So, here's my pitch: help me and all of us better understand our library discovery algorithms. If you're an authorized user, or a representative from EBSCO or OCLC, I'd love to talk with you. The license agreements say I can't use the tools, but they never said anything about me asking another authorized user to collect search results.
 
@@ -231,6 +219,6 @@ Better yet: dive in yourself and examine the algorithms, inputs, and outputs; ta
 
 -----
 
-### Slide 33:
+### Slide 31:
 
 Thank you for listening.
