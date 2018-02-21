@@ -98,6 +98,12 @@ O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequali
 
 -----
 
+![Tweet about YouTube results](img/youtube.png)
+
+[Christopher Ingraham on Twitter](https://twitter.com/_cingraham/status/966331897457426434)
+
+-----
+
 ![Google autosuggest responses from this morning](img/masshootings.png)
 
 [#NotOKGoogle Search Suggestions: 2018 Edition](https://medium.com/@d1gi/notokgoogle-search-suggestions-2018-edition-ba09eaf49fc2)
