@@ -124,7 +124,7 @@ Primo suggesting Children's Sex Literature as a replacement for Children's Liter
 
 -----
 
-![Summon search results for Stress in the Workplace](img/stressintheworkforce.png)
+![Summon search results for Stress in the Workplace](img/stressworkforce.png)
 
 Summon results for the Stress in the Workplace
 
