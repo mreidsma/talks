@@ -92,7 +92,7 @@ O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequali
 
 -----
 
-![Article on Sentiment Analysis](img/iknow.png)
+![Article on Sentiment Analysis](img/iknow.jpg)
 
 [I Know How You Felt This Semester](https://www.insidehighered.com/digital-learning/article/2018/02/20/sentiment-analysis-allows-instructors-shape-course-content)
 
@@ -124,18 +124,35 @@ Primo suggesting Children's Sex Literature as a replacement for Children's Liter
 
 -----
 
+![Summon search results for Stress in the Workplace](img/stressintheworkforce.png)
+
+Summon results for the Stress in the Workplace
+
+-----
+
+![Summon search results for mental illness](img/mentalillness.png)
+
+Summon results for the Mental Illness
+
+-----
+
 ![Summon search results for Women in Film](img/womeninfilm.png)
 
 Summon results for Women in Film
-
-Note:
-But often the incorrect results slipped into bias, reinforcing negative stereotypes, like a search for "women in film" that apparently couldn't imagine anything more relevant than an exploitation genre.
 
 -----
 
 ![Summon search results for Birth of Feminism](img/birthoffeminism.png)
 
 Summon results for the Birth of Feminism
+
+-----
+
+![Search results for a known item on LGBT youth returns 2 results: the item and a book on mental illness](img/lgbt_mental_illness.jpg)
+
+A known item search for a book on LGBT youth returns the item and a random book
+on mental illness. What made the algorithm suggest this item?
+
 
 -----
 
@@ -147,12 +164,6 @@ Summon results for the Birth of Feminism
 
 [The Curious Connection Between Apps for Gay Men and Sex Offenders](https://www.theatlantic.com/technology/archive/2011/04/the-curious-connection-between-apps-for-gay-men-and-sex-offenders/237340/) // Photo: [mike.annany.com](http://mike.annany.com)
 
------
-
-![Search results for a known item on LGBT youth returns 2 results: the item and a book on mental illness](img/lgbt_mental_illness.jpg)
-
-A known item search for a book on LGBT youth returns the item and a random book
-on mental illness. What made the algorithm suggest this item?
 
 
 -----
