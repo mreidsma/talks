@@ -104,6 +104,7 @@ O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequali
 
 -----
 
+
 ![Google autosuggest responses from this morning](img/masshootings.png)
 
 [#NotOKGoogle Search Suggestions: 2018 Edition](https://medium.com/@d1gi/notokgoogle-search-suggestions-2018-edition-ba09eaf49fc2)
@@ -114,6 +115,14 @@ O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequali
 ![Google autosuggest responses from this morning](img/ferguson.png)
 
 [#NotOKGoogle Search Suggestions: 2018 Edition](https://medium.com/@d1gi/notokgoogle-search-suggestions-2018-edition-ba09eaf49fc2)
+
+
+
+-----
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iZ17h4e7k_s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+[Digital Polarlization on Pinterest](https://www.youtube.com/watch?v=iZ17h4e7k_s)
 
 -----
 
