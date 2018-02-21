@@ -98,6 +98,12 @@ O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequali
 
 -----
 
+![Guardian article about YouTube bias](img/youtube2.png)
+
+['Fiction is outperforming reality': how YouTube's algorithm distorts truth](https://www.theguardian.com/technology/2018/feb/02/how-youtubes-algorithm-distorts-truth)
+
+-----
+
 ![Tweet about YouTube results](img/youtube.png)
 
 [Christopher Ingraham on Twitter](https://twitter.com/_cingraham/status/966331897457426434)
@@ -116,7 +122,11 @@ O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequali
 
 [#NotOKGoogle Search Suggestions: 2018 Edition](https://medium.com/@d1gi/notokgoogle-search-suggestions-2018-edition-ba09eaf49fc2)
 
+-----
 
+![Google Images results for Appalachian Photography](img/appalachia.png)
+
+[Passive, poor and white? What people keep getting wrong about Appalachia](https://www.theguardian.com/us-news/2018/feb/06/what-youre-getting-wrong-about-appalachia)
 
 -----
 
