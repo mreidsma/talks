@@ -66,6 +66,12 @@ O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequali
 
 -----
 
+<video controls="controls">
+    <source src="img/computersaysno.mp4" type="video/mp4" />
+</video>
+
+-----
+
 <img src="img/recidivism.jpg" al="Bernard Parker and Dylan Fugett" style="width:75%;" />
 
 [Propublica: Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
@@ -133,6 +139,12 @@ O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequali
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iZ17h4e7k_s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [Digital Polarlization on Pinterest](https://www.youtube.com/watch?v=iZ17h4e7k_s)
+
+-----
+
+![Turnit in article](img/turnitin.png)
+
+[New university plagiarism software to be launched in crackdown on 'contract' cheating ](http://www.telegraph.co.uk/education/2018/02/01/new-university-plagiarism-software-launched-crackdown-contract/)
 
 -----
 
