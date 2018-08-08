@@ -113,7 +113,7 @@ But typing in searches one at a time doesn't scale.
 
 -----
 
-![Screenshot of Summon data dashboard I built](img/summondata.png)
+![Screenshot of Summon data dashboard I built](img/summon_data.png)
 
 Screen shot of Summon data dashboard, available at [https://prod.library.gvsu.edu/labs/summon2.0/searches.php](https://prod.library.gvsu.edu/labs/summon2.0/searches.php)
 
