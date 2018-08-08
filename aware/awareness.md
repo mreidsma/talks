@@ -113,6 +113,19 @@ But typing in searches one at a time doesn't scale.
 
 -----
 
+![Screenshot of Summon data dashboard I built](img/summondata.png)
+
+Screen shot of Summon data dashboard, available at [https://prod.library.gvsu.edu/labs/summon2.0/searches.php](https://prod.library.gvsu.edu/labs/summon2.0/searches.php)
+
+Note:
+So I captured the results as our users searched in Summon. This has the benefit of showing actual searches rather than hypothetical searches.
+
+Whenever Summon executes a search for a user and a Topic Explorer result was shown, my script grab the search query and all of the algorithmic results on the page and sends a POST request to a PHP script that parses the data and stored it in a MySQL database. This method works for looking at the results of what other people are searching for, but you need to be cautious about privacy. In this case, searches that bring up Topic Explorer results are very general searches, often 1-2 terms. By not saving any information about who did the search, what other searches they did, or when the search was run, I lowered the possibility of capturing reidentifiable data about our users. 
+
+I then built a dashboard, shown here, that allows me to review the results of these searches.
+
+-----
+
 ![Screenshot of Zenodo page showing Topic Explorer results](img/data.png)
 
 [http://dx.doi.org/10.5281/zenodo.47723](http://dx.doi.org/10.5281/zenodo.47723)
@@ -177,7 +190,7 @@ Here Primo suggests that a search for "New York Waste" should have been a search
 Primo suggesting Children's Sex Literature as a replacement for Children's Literature. From [@Nadaleen](https://twitter.com/Nadaleen/status/730116596728012800)
 
 Note:
-I've also been able to find problematic results from colleagues on Twitter, like this one that Nadaleen Tempelman-Kluit posted from Primo, where it thinks a search for Children's Literature could only be made better by transforming it into a search for Children's Sex Literature.
+I've also been able to find problematic results from colleagues, like this Primo result that Nadaleen Tempelman-Kluit posted on Twitter, where Primo thinks a search for Children's Literature could only be made better by transforming it into a search for Children's Sex Literature.
 
 
 -----
@@ -188,6 +201,8 @@ EDS' autosuggests many topics if you start typing "women are"
 
 Note:
 EDS' autosuggest feature is particularly suceptible to searches where you type a category of person followed by "are" - such as here where EDS suggests that popular terms are "women are more emotional than men" and "women are weaker than men." 
+
+While the algorithm was clearly designed to show "popular" searches, users often interpret these suggestions as "good" searches, ones that are sanctioned by the search tool, not just a reflection of the worst of humanity equipped with a million keyboards.
 
 -----
 
@@ -214,9 +229,9 @@ There are other Research Starters on the topic of race. Making the search more s
 EDS Research Starter for the keyword "racial discrimination" is Racial Discrimination
 
 Note:
-Here, searching for "race discrimination," a combination of keywords exactly no one will search for when the shorter racism will do, brings up a more appropriate result. But how many users will find this research starter? And what is behind the algorithm that chooses between these?
+Here, searching for "race discrimination," a combination of keywords exactly no one will search for when the shorter racism will do, brings up yet another potentially relevant result. But how many users will find this research starter? And what is behind the algorithm that chooses between these?
 
-One difference I've found between the teams at EBSCO and the teams at Ex Libris/ProQuest is that the EBSCO team has been proactively testing their algorithms for bias, and correcting things. They reached out to me and gave me access to their tool and asked me to report any issues that I found. And they fix the algorithms - they ask the hard questions about what assumptions they built into the the tool that brought up problematic results, rather than just blocking offensive results.
+One difference I've found between the teams at EBSCO and the teams at Ex Libris/ProQuest is that the EBSCO team has been proactively testing their algorithms for bias, and correcting things. They reached out to me and gave me access to their tool and asked me to report any issues that I found. And they fix the algorithms - they ask the hard questions about what assumptions they built into the the tool that brought up problematic results, rather than just blocking offensive results. They're working on improving these search results right now.
 
 -----
 
@@ -267,7 +282,7 @@ Topic Explorer result for Chris Ware.
 Note: 
 In the Topic Explorer, that phrase is missing. Summon 2.0 wasn't even announced to the public until a month later, March 18, 2013. So for five years, Wikipedia entries have remained frozen with early 2013 knowledge in Summon.
 
-This innaccuracy was a direct result of a decision made when developing the search and relevance algorithm for the Topic Explorer. Rather than handing off the selection process to Wikipedia's API, the Summon team built their own, but did not think of the consequences of a fixed set of reference materials in a fast-changing world.
+This innaccuracy was a direct result of a decision made when developing the search and relevance algorithm for the Topic Explorer. Rather than handing off the selection process to Wikipedia's API, the Summon team built their own, but did not think of the consequences of fixing a set of reference materials that prides itself on being up-to-date.
 
 -----
 
@@ -316,7 +331,7 @@ But for the user who was searching for this book? What was the impact of seeing 
 [The Curious Connection Between Apps for Gay Men and Sex Offenders](https://www.theatlantic.com/technology/archive/2011/04/the-curious-connection-between-apps-for-gay-men-and-sex-offenders/237340/) // Photo: [mike.annany.com](http://mike.annany.com)
 
 Note:
-These are challenging, scary, ethical issues. But library search tools are sold as neutral, objective places for learning and research. That is not the case, and part of the reason for auditing our algorithmic tools is to correct this kind of "objective" marketing,  but also to work with vendors to improve the algorithms.
+These are challenging, scary, ethical issues. But library search tools are sold as neutral, objective places for learning and research. That is not the case, and part of the reason for teaching algorithmic awareness is to cut through this kind of "objective" marketing.
 
 -----
 
@@ -327,7 +342,7 @@ These are challenging, scary, ethical issues. But library search tools are sold 
 Beer, S. (2002). “What is Cybernetics?” Kybernetes, 31(2), pp. 209–19.
 
 Note:
-A word on the responsibilities of vendors. If your search tool reinforces and reproduces systemic racial, gender, religious, or other biases - it doesn't matter if you "didn't intend" to build a system with those biases. That's what you system does. It is your responsibility to make a system that is fair for all users. Your responsibility doesn't end when we go live with your tool.
+A word on the responsibilities of vendors and libraries who purchase software from them. If your search tool reinforces and reproduces systemic racial, gender, religious, or other biases - it doesn't matter if you "didn't intend" to build or license a system with those biases. That's what your system does. It is your responsibility to make and choose a system that is fair for all users. 
 
 -----
 
@@ -336,7 +351,7 @@ A word on the responsibilities of vendors. If your search tool reinforces and re
 From [The Revolution Will Not Be Standardized](https://webcast.gigtv.com.au/Mediasite/Showcase/vala2018/Presentation/31066bb7c4bc483a8647dc496b4c68181d) by Angela Galvan.
 
 Note:
-But these search results are also the most visible and used parts of our library websites, and so they speak to our users about our values. Yesterday my fellow *Weave Journal of Library User Experience* editor Angela Galvan gave the keynote at VALA in Melbourne. She noted "Glitches are the unintentional exposure of values." For those of us who study algorithms, problematic results give us a clearer window into what an algorithm values. But our users will read that as what we in the library value. It is our responsibility to ensure that the values we claim to have are what are reflected in our tools. Our responsibility doesn't end when we sign the license agreement.
+But these search results are also the most visible and used parts of our library websites, and so they speak to our users about our values. In February, my colleague Angela Galvan gave the keynote at VALA in Melbourne. She noted "Glitches are the unintentional exposure of values." For those of us who study algorithms, problematic results give us a clearer window into what an algorithm values. But our users will read that as what we in the library value. It is our responsibility to ensure that the values we claim to have are what are reflected in our tools. Our responsibility doesn't end when we sign the license agreement.
 
 -----
 
@@ -347,7 +362,7 @@ But these search results are also the most visible and used parts of our library
 * <span style="color: #222;">Content creators don't "game" the algorithm</span>
 
 Note:
-Now I'm going to try to recruit you to study the algorithms in your library systems. These algorithms are not affected by some of the most challenging parts of researching commercial search algorithms. 
+Helping our users understand library algorithms is important, and we must keep in mind that these algorithms are not affected by some of the most challenging parts of researching commercial search algorithms. 
 
 For one, the pressures of capital and wealth creation are not as direct as in an advertising-supported search tool like Google. There are (theoretically) no ads in our discovery services. Libraries are the paying customer, not the end user.
 
@@ -361,6 +376,8 @@ For one, the pressures of capital and wealth creation are not as direct as in an
 
 Note:
 Because libraries are licensing this software, we expect that the vendor won't experiment with new features in our live discovery systems. And as of this moment, none of the vendors appears to be using machine learning algorithms to personalize search results for our users. (It will get there, but some of them are using tables for layout, so I think we're safe for a bit.) We can be pretty sure that all our users are seeing the same results for the same searches (except for some differences in on-campus and off-campus searches.)
+
+General-purpose search tools like Google are a whole other story.
 
 -----
 
@@ -408,9 +425,20 @@ Trying to understand why something appears in a results set can be challenging, 
 Note:
 Finally, if you want to study a tool that isn't the one your institution subscribes to, you may be thwarted by the End User License Agreement for the discovery service. Both (EDS) EBSCO discovery service and OCLC's Worldshare prohibit the search interface from being used by "unauthorized users," which is basically everyone but currently affiliated students, staff, faculty, or patrons at the subscribing institution. 
 
-Even if you could use the interfaces, none of us has the time to manually search and record results, so we'd ideally write a script to do this for us. But the license agreement may prohibit this, as well. (The Computer Fraud and Abuse Act is also so broad that even if the EULA didn't prohibit this, you might be in legal trouble from scraping results anyway.) If you subscribe to a service, you may be able to collect the results with a script in the guise of collecting usage data. That's what I did with Summon.
+Even if you could use the interfaces, none of us has the time to manually search and record results, so we'd ideally write a script to do this for us. But the license agreement may prohibit this, as well. (The Computer Fraud and Abuse Act is also so broad that even if the EULA didn't prohibit this, you might be in legal trouble from scraping results anyway.) If you subscribe to a service, you may be able to collect the results with a script in the guise of collecting usage data. That's what I did with Summon. And I got lucky when EBSCO reached out to me earlier this year and gave me access to EDS.
 
 (A quick point of order: I am not a lawyer and this was not legal advice.)
+
+-----
+
+![Slide by Jason Clark at Code4Lib: Our Community, Our Opportunity](img/clark.png)
+
+From [Building Competencies Around Algorithmic Awareness](https://www.lib.montana.edu/~jason/talks/algorithmic-awareness-talk-code4lib2018.pdf) by Jason Clark, Code4Lib 2018.
+
+Note:
+Teaching how to be aware of an algorithm's effects doesn't need to be as detailed and involved as what I have presented here. In fact, because of the vast difference between search tools large and small, it is impractical for most researchers to do this kind of analysis, let alone casual searchers.
+
+But developing a healthy skepticism abut the claims these tools make is essential for the next generation of citizens. The tools you will help develop over the next few days will help get us there.
 
 -----
 
