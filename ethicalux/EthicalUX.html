@@ -1,0 +1,1322 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headerlink {
+  font: normal 400 16px fontawesome-mini;
+  vertical-align: middle;
+  margin-left: -16px;
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0;
+  color: #333;
+}
+
+.markdown-body .headerlink:focus {
+  outline: none;
+}
+
+.markdown-body h1 .headerlink {
+  margin-top: 0.8rem;
+}
+
+.markdown-body h2 .headerlink,
+.markdown-body h3 .headerlink {
+  margin-top: 0.6rem;
+}
+
+.markdown-body h4 .headerlink {
+  margin-top: 0.2rem;
+}
+
+.markdown-body h5 .headerlink,
+.markdown-body h6 .headerlink {
+  margin-top: 0;
+}
+
+.markdown-body .headerlink:hover,
+.markdown-body h1:hover .headerlink,
+.markdown-body h2:hover .headerlink,
+.markdown-body h3:hover .headerlink,
+.markdown-body h4:hover .headerlink,
+.markdown-body h5:hover .headerlink,
+.markdown-body h6:hover .headerlink {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* MultiMarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px fontawesome-mini;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\e157';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><style>/*GitHub*/
+.codehilite {background-color:#fff;color:#333333;}
+.codehilite .hll {background-color:#ffffcc;}
+.codehilite .c{color:#999988;font-style:italic}
+.codehilite .err{color:#a61717;background-color:#e3d2d2}
+.codehilite .k{font-weight:bold}
+.codehilite .o{font-weight:bold}
+.codehilite .cm{color:#999988;font-style:italic}
+.codehilite .cp{color:#999999;font-weight:bold}
+.codehilite .c1{color:#999988;font-style:italic}
+.codehilite .cs{color:#999999;font-weight:bold;font-style:italic}
+.codehilite .gd{color:#000000;background-color:#ffdddd}
+.codehilite .ge{font-style:italic}
+.codehilite .gr{color:#aa0000}
+.codehilite .gh{color:#999999}
+.codehilite .gi{color:#000000;background-color:#ddffdd}
+.codehilite .go{color:#888888}
+.codehilite .gp{color:#555555}
+.codehilite .gs{font-weight:bold}
+.codehilite .gu{color:#800080;font-weight:bold}
+.codehilite .gt{color:#aa0000}
+.codehilite .kc{font-weight:bold}
+.codehilite .kd{font-weight:bold}
+.codehilite .kn{font-weight:bold}
+.codehilite .kp{font-weight:bold}
+.codehilite .kr{font-weight:bold}
+.codehilite .kt{color:#445588;font-weight:bold}
+.codehilite .m{color:#009999}
+.codehilite .s{color:#dd1144}
+.codehilite .n{color:#333333}
+.codehilite .na{color:teal}
+.codehilite .nb{color:#0086b3}
+.codehilite .nc{color:#445588;font-weight:bold}
+.codehilite .no{color:teal}
+.codehilite .ni{color:purple}
+.codehilite .ne{color:#990000;font-weight:bold}
+.codehilite .nf{color:#990000;font-weight:bold}
+.codehilite .nn{color:#555555}
+.codehilite .nt{color:navy}
+.codehilite .nv{color:teal}
+.codehilite .ow{font-weight:bold}
+.codehilite .w{color:#bbbbbb}
+.codehilite .mf{color:#009999}
+.codehilite .mh{color:#009999}
+.codehilite .mi{color:#009999}
+.codehilite .mo{color:#009999}
+.codehilite .sb{color:#dd1144}
+.codehilite .sc{color:#dd1144}
+.codehilite .sd{color:#dd1144}
+.codehilite .s2{color:#dd1144}
+.codehilite .se{color:#dd1144}
+.codehilite .sh{color:#dd1144}
+.codehilite .si{color:#dd1144}
+.codehilite .sx{color:#dd1144}
+.codehilite .sr{color:#009926}
+.codehilite .s1{color:#dd1144}
+.codehilite .ss{color:#990073}
+.codehilite .bp{color:#999999}
+.codehilite .vc{color:teal}
+.codehilite .vg{color:teal}
+.codehilite .vi{color:teal}
+.codehilite .il{color:#009999}
+.codehilite .gc{color:#999;background-color:#EAF2F5}
+</style><title>EthicalUX</title></head><body><article class="markdown-body"><h1 id="ethical-ux"><span class="raleway" style="letter-spacing:.08em;margin-left:.15em;">Ethical</span> <span class="blue" style="font-size: 3.25em; line-height:.7em;">UX</span><a class="headerlink" href="#ethical-ux" title="Permanent link"></a></h1>
+<p style="text-transform:uppercase;">Matthew Reidsma // <span class="blue">Grand Valley State University</span></p>
+
+<hr />
+<!-- .slide: data-background-image="img/villarotunda.jpg" -->
+
+<p>Photograph: Stefan Bauer. <a href="https://en.wikipedia.org/wiki/File:Villa_Rotonda_front.jpg">https://en.wikipedia.org/wiki/File:Villa_Rotonda_front.jpg</a></p>
+<p>Note: 
+In the sixteenth century, the architect Andrea Palladio began work on the  &ldquo;Villa La Rotunda,&rdquo; in Northern Italy. It is considered to be Palladio&rsquo;s master work, a summation of the ideas of one of the greatest architects in history. </p>
+<p>Palladio himself was inspired by Ancient Rome, and how the architecture of that age reflected society&rsquo;s values. So, on the stairways and pediments of the Villa La Rotunda, he placed sculptures that embodied the values and ideals of Italian society in the guise of figures from Classical mythology. Not only did Palladio reflect ideal values in the orientation of the building and its proportions, but he literally represented these values as sculptures on the building&rsquo;s facade. </p>
+<hr />
+<p><img alt="Front page of Palladio's Four Books of Architecture, showing maidens of Architecture bowing to the Queen of Virtue" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/palladio.jpg" /></p>
+<p>Andrea Palladio, <em>Four Books of Architecture</em> (1788, Isaac Ware, London). Front page.</p>
+<p>Note:
+Palladio&rsquo;s other great legacy was his book, <em>The Four Books of Architecture</em>. Two hundred years after his death, editions of the book were still being printed with a frontispiece depicting the maidens of Architecture paying homage to the &ldquo;Queen of Virtue.&rdquo;</p>
+<hr />
+<p><img alt="Albert Speer's German pavillion from the 1937 World's Fair" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/02k.jpg" style="width: 700px" /></p>
+<p>Albert Speer&rsquo;s German pavilion from the 1937 World&rsquo;s Fair</p>
+<p>Note: </p>
+<p>Let&rsquo;s look at another example. This is the German Pavilion, designed by Albert Speer, for the 1937 World&rsquo;s Fair, representing Germany&rsquo;s fascist government. A pavillion has a very different purpose than a plan to protect farmland. It has functional purposes, but it also represents the values and ideals of the creators explicitly. We can assume that Speer was pretty deliberate in building this 500 foot tall imposing, agressive tower of might to convey a set of values the government stood for. It&rsquo;s a monument to oppression and power.</p>
+<hr />
+<p><img alt="Federal Republic of Germany’s 1958 world’s fair pavilion designed by Egon Eiermann" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/1958-2.jpg" /></p>
+<p>Egon Eiermann&rsquo;s Federal Republic of Germany pavilion for the 1958 World&rsquo;s Fair</p>
+<p>Note: 
+21 years later, Egon Eiermann designed the World&rsquo;s Fair pavilion for the Federal Republic of Germany’s in 1958. It emphasizes horizontiality to suggest calm, lightness to imply gentleness, and transparency to evoke democracy. It was a statement to the world about the values of the new German government.</p>
+<hr />
+<!-- .slide: data-background-image="img/deBotton.jpg" -->
+
+<h3 id="political-and-ethical-ideas-can-be-written-into-window-frames-and-door-handles">Political and ethical ideas can be written into window frames and door handles.<a class="headerlink" href="#political-and-ethical-ideas-can-be-written-into-window-frames-and-door-handles" title="Permanent link"></a></h3>
+<h4 id="alain-de-botton">Alain de Botton<a class="headerlink" href="#alain-de-botton" title="Permanent link"></a></h4>
+<p>de Botton, A. (2006). <em>The Architecture of Happiness</em>. New York: Vintage International. p.93</p>
+<p>Note:
+This isn&rsquo;t an unusual proposition, that created things reflected societal values. Designers and artists from the Ancient Romans to today craft ideal values into their creations. (Whether the men and women that lived out their lives under these symbolic ideals lived up to them is another question.)</p>
+<hr />
+<p><img alt="Example of how gerrymandering can allow a minority of voters to win the majority of seats in an election by Steven Nass" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/stealelection.png" /></p>
+<p><a href="https://en.wikipedia.org/wiki/File:How_to_Steal_an_Election_-_Gerrymandering.svg">Steven Nass, CC-BY 4.0</a></p>
+<p>Note:</p>
+<hr />
+<p><img alt="Slide from Mike Monteiro's talk How to Fight Fascism showing North Carolina's 12th Congressional District" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/nc12.png" /></p>
+<p><a href="https://speakerdeck.com/inuse/how-to-fight-fascism-mike-monteiro?slide=5">From <em>How to Fight Fascism</em> by Mike Monteiro</a></p>
+<hr />
+<!-- .slide: data-background-image="img/goodman.jpg" -->
+
+<h3 id="technology-is-a-branch-of-moral-philosophy-not-of-science">Technology is a branch of moral philosophy, not of science.<a class="headerlink" href="#technology-is-a-branch-of-moral-philosophy-not-of-science" title="Permanent link"></a></h3>
+<h4 id="paul-goodman">Paul Goodman<a class="headerlink" href="#paul-goodman" title="Permanent link"></a></h4>
+<p><a href="http://www.nybooks.com/articles/1969/11/20/can-technology-be-humane">Goodman, P. (1969). Can Technology Be Humane? <em>New York Review of Books</em>, Nov. 20, 1969</a></p>
+<p>Note:
+The late social critic Paul Goodman wrote about technology in the broadest sense of &ldquo;knowledge applied to practical ends,&rdquo; in other words, design. Design solutions, designed services, designed products and tools. And creating those things, he argued, involved moral choices first and foremost. Because as we create new things, we are shaping the kinds of experiences, and therefore the kinds of choices and lives, that users of our designs will face.</p>
+<hr />
+<h3 id="design-is-a-branch-of-moral-philosophy-not-of-science"><span class="blue">Design</span> is a branch of moral philosophy, not of science.<a class="headerlink" href="#design-is-a-branch-of-moral-philosophy-not-of-science" title="Permanent link"></a></h3>
+<h4 id="_1">&nbsp;<a class="headerlink" href="#_1" title="Permanent link"></a></h4>
+<hr />
+<!-- .slide: data-background-image="img/orphanides.jpg" -->
+
+<h3 id="system-design-reflects-the-designers-values-and-the-cultural-context">System design reflects the designer&rsquo;s values and the cultural context.<a class="headerlink" href="#system-design-reflects-the-designers-values-and-the-cultural-context" title="Permanent link"></a></h3>
+<h4 id="andreas-orphanides">Andreas Orphanides<a class="headerlink" href="#andreas-orphanides" title="Permanent link"></a></h4>
+<p><a href="https://docs.google.com/presentation/d/180dMBG26xMYB9gfIotoUyCBQfO3XfmHiJGQjvn58GwY/edit?pref=2&amp;pli=1#slide=id.gf03c9bb35_0_143">Architecture is politics: The power and the perils of systems design</a></p>
+<p>Note:
+ In his insightful talk Architecture is Politics, UX Libs alum Andreas Orphanides notes that nearly all created and designed things embed within them the values and biases or their creators, whether we intend to or not. We&rsquo;re building systems that reflect our values, that inherently take stances about what is right and what is wrong.</p>
+<hr />
+<h1 id="what-are-ourvalues"><span style="font-family:Raleway;font-weight:100;">What are our</span><br /><span class="blue" style="font-size:1.8em;">Values?</span><a class="headerlink" href="#what-are-ourvalues" title="Permanent link"></a></h1>
+<p>Note:
+That&rsquo;s okay! You&rsquo;re saying. We want to help people! We are good designers! If that&rsquo;s the case, then what do our designs say about our values? What do our designs say is right, and what is wrong?</p>
+<hr />
+<p><img alt="Auto-suggest on Ex Libris' Primo suggesting child sex literature for a search on children's literature" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/primo.png" /></p>
+<p>Do we value our users&rsquo; trust as much as the appearance of convenience? (<a href="https://twitter.com/Nadaleen/status/730116596728012800/photo/1">From @Nadaleen</a>)</p>
+<p>Note:</p>
+<hr />
+<p><img src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/brooklyn.png" alt="Brooklyn Public Library Card Application" /></p>
+<p><a href="https://bpl.brooklynpubliclibrary.org/patron/registration.aspx">Brooklyn Public Library&rsquo;s Online Library Card Application</a></p>
+<p>Note:
+When we do create tools that allow our users better access to our services, are we encoding them with care for our users? Do our designs respect our users&rsquo; right to be themselves? To have privacy? </p>
+<hr />
+<p><img src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/brooklyn_fade.png" alt="" /></p>
+<p><img src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/brklyn_gender.png" alt="Gender binary selector at Brooklyn Public Library" style="width: 50%; position: fixed; left: 25%; top: 35%;z-index: 100;" /></p>
+<p>Do our political or religious beliefs shape the choices we offer users?</p>
+<p>Note:
+Do our political or religious beliefs, coupled with our fetish with data collection, affect our designs, tripping up our users?</p>
+<hr />
+<p><img alt="Summon Topic Explorer result showing Women in the workforce being equated with stress" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/stressworkforce.png" /></p>
+<p>Do we value accuracy and equity more than the appearance of relevance?</p>
+<p>Note:
+When we build tools to help our users access resources and make sense of information, what values are being encoded into the designs? Do we value accuracy and equity more than the appearance of relevance?</p>
+<hr />
+<p><img alt="III Encore with JavaScript disabled demands that you turn JavaScript on" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/encore.png" /></p>
+<p>Do we value our users more than our desire to exploit new technologies?</p>
+<p>Note:</p>
+<hr />
+<p><img alt="Screenshot of Illiad tutorial" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/paste_citations.jpg" /></p>
+<p>Do we respect our users more than our own workflows?</p>
+<p>Note:
+Pass.</p>
+<hr />
+<!-- .slide: data-background-image="img/montero.jpg" -->
+
+<h3 id="this-is-how-bad-design-makes-it-out-into-the-world-not-due-to-malicious-intent-but-with-no-intent-at-all">This is how bad design makes it out into the world. Not due to malicious intent, but with no intent at all.<a class="headerlink" href="#this-is-how-bad-design-makes-it-out-into-the-world-not-due-to-malicious-intent-but-with-no-intent-at-all" title="Permanent link"></a></h3>
+<h4 id="mike-monteiro">Mike Monteiro<a class="headerlink" href="#mike-monteiro" title="Permanent link"></a></h4>
+<p><a href="https://vimeo.com/68470326">How Designers Destroyed the World</a></p>
+<p>Note:</p>
+<hr />
+<!-- .slide: data-background-image="img/hanson.png" -->
+
+<h3 id="our-expertise-our-service-ethic-and-our-values-remain-our-greatest-strengths">Our expertise, our service ethic, and our values remain our greatest strengths.<a class="headerlink" href="#our-expertise-our-service-ethic-and-our-values-remain-our-greatest-strengths" title="Permanent link"></a></h3>
+<h4 id="cody-hanson">Cody Hanson<a class="headerlink" href="#cody-hanson" title="Permanent link"></a></h4>
+<p><a href="http://codyhanson.com/writing/software.html">Libraries are Software</a></p>
+<p>Note:</p>
+<hr />
+<!-- .slide: data-background-image="img/hanson.png"  -->
+
+<h3 id="but-for-us-to-have-the-impact-we-seek-in-the-lives-of-our-users-we-must-encode-our-services-and-our-values-in-the-software-we-provide">But for us to have the impact we seek in the lives of our users, we must encode our services and our values in the software we provide.<a class="headerlink" href="#but-for-us-to-have-the-impact-we-seek-in-the-lives-of-our-users-we-must-encode-our-services-and-our-values-in-the-software-we-provide" title="Permanent link"></a></h3>
+<h4 id="cody-hanson_1">Cody Hanson<a class="headerlink" href="#cody-hanson_1" title="Permanent link"></a></h4>
+<p><a href="http://codyhanson.com/writing/software.html">Libraries are Software</a></p>
+<p>Note:</p>
+<hr />
+<hr />
+<!-- .slide: data-transition="fade-in" data-transition-speed="slow" -->
+
+<h1 id="ethical-design">Ethical <span class="blue">Design</span><a class="headerlink" href="#ethical-design" title="Permanent link"></a></h1>
+<p>Note:</p>
+<hr />
+<p><img alt="Design interprets the world to create useful objects. Ethical design closes the loop, imagining how those objects will affect the world. Tweet by Cennydd Bowles" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/bowles.png" /></p>
+<p><a href="https://twitter.com/Cennydd/status/831431945930293248">https://twitter.com/Cennydd/status/831431945930293248</a></p>
+<p>Note:</p>
+<hr />
+<!-- .slide: data-background-image="img/pohl.jpg" -->
+
+<h3 id="a-good-science-fiction-story-should-be-able-to-predict-not-the-automobile-but-the-traffic-jam">A good science fiction story should be able to predict not the automobile, but the traffic jam.<a class="headerlink" href="#a-good-science-fiction-story-should-be-able-to-predict-not-the-automobile-but-the-traffic-jam" title="Permanent link"></a></h3>
+<h4 id="frederic-pohl">Frederic Pohl<a class="headerlink" href="#frederic-pohl" title="Permanent link"></a></h4>
+<p>&nbsp;</p>
+<hr />
+<!-- .slide: data-background-image="img/papanek.jpg" -->
+
+<h3 id="the-designers-social-and-moral-judgment-must-be-brought-into-play-long-before-she-begins-to-design">[The designer’s] social and moral judgment must be brought into play long before [she] begins to design.<a class="headerlink" href="#the-designers-social-and-moral-judgment-must-be-brought-into-play-long-before-she-begins-to-design" title="Permanent link"></a></h3>
+<h4 id="victor-papanek">Victor Papanek<a class="headerlink" href="#victor-papanek" title="Permanent link"></a></h4>
+<p>Papanek, V. (1971). <em>Design for the Real World: Human ecology and social change</em>. New York: Pantheon Books. p. 45.</p>
+<p>Note:
+Focus on people over data</p>
+<hr />
+<!-- .slide: data-background-image="img/montero.jpg" -->
+
+<h3 id="we-need-to-fear-the-consequences-of-our-work-more-than-we-love-the-cleverness-of-our-ideas">We need to fear the consequences of our work more than we love the cleverness of our ideas.<a class="headerlink" href="#we-need-to-fear-the-consequences-of-our-work-more-than-we-love-the-cleverness-of-our-ideas" title="Permanent link"></a></h3>
+<h4 id="mike-monteiro_1">Mike Monteiro<a class="headerlink" href="#mike-monteiro_1" title="Permanent link"></a></h4>
+<p><a href="https://vimeo.com/68470326">How Designers Destroyed the World</a></p>
+<p>Note:</p>
+<hr />
+<h1 id="analytics"><span class="blue">Analytics</span><a class="headerlink" href="#analytics" title="Permanent link"></a></h1>
+<hr />
+<!-- .slide: data-background-image="img/ideo.jpg" -->
+
+<h3 id="the-goal-of-design-research-isnt-to-collect-data-its-to-synthesize-information-and-provide-insight-and-guidance-that-leads-to-action">The goal of design research isn’t to collect data; it’s to synthesize information and provide insight and guidance that leads to action.<a class="headerlink" href="#the-goal-of-design-research-isnt-to-collect-data-its-to-synthesize-information-and-provide-insight-and-guidance-that-leads-to-action" title="Permanent link"></a></h3>
+<h4 id="ideo">IDEO<a class="headerlink" href="#ideo" title="Permanent link"></a></h4>
+<p>IDEO. (2016). <em>The Little Book of Design Research</em>, p.41</p>
+<hr />
+<!-- .slide: data-background-image="img/galvan.jpg" -->
+
+<h3 id="for-all-the-data-library-software-vendors-have-about-our-users-youd-think-wed-have-beautifully-customized-products">For all the data [Library software vendors] have about our users, you’d think we’d have beautifully customized product[s].<a class="headerlink" href="#for-all-the-data-library-software-vendors-have-about-our-users-youd-think-wed-have-beautifully-customized-products" title="Permanent link"></a></h3>
+<h4 id="angela-galvan">Angela Galvan<a class="headerlink" href="#angela-galvan" title="Permanent link"></a></h4>
+<p><a href="https://asgalvan.com/2016/12/05/architecture-of-authority/">Architecture of Authority</a></p>
+<hr />
+<!-- .slide: data-background-image="img/salo.jpg" -->
+
+<h3 id="the-ala-code-of-ethics-does-not-say-we-protect-each-library-users-right-to-privacy-and-confidentiality-except-for-google-analytics">The ALA Code of Ethics does not say: &ldquo;We protect each library user&rsquo;s right to privacy and confidentiality &hellip; except for Google Analytics.&rdquo;<a class="headerlink" href="#the-ala-code-of-ethics-does-not-say-we-protect-each-library-users-right-to-privacy-and-confidentiality-except-for-google-analytics" title="Permanent link"></a></h3>
+<h4 id="dorthea-salo-paraphrase-by-eric-hellman">Dorthea Salo <br /><span style="font-size: .6em;">(Paraphrase by Eric Hellman)</span><a class="headerlink" href="#dorthea-salo-paraphrase-by-eric-hellman" title="Permanent link"></a></h4>
+<p><a href="https://www.youtube.com/watch?v=ZmRfyg3-YDc">Ain&rsquo;t Nobody&rsquo;s Business If I Do (Read Serials)</a></p>
+<hr />
+<!-- .slide: data-background-image="img/chimero.jpg" -->
+
+<h3 id="remove-a-persons-humanity-and-she-is-just-a-curiosity-a-pinpoint-on-a-map-a-line-in-a-list-an-entry-in-a-database-a-person-turns-into-a-granular-bit-of-information">Remove a person&rsquo;s humanity, and she is just a curiosity, a pinpoint on a map, a line in a list, an entry in a database. A person turns into a granular bit of information.<a class="headerlink" href="#remove-a-persons-humanity-and-she-is-just-a-curiosity-a-pinpoint-on-a-map-a-line-in-a-list-an-entry-in-a-database-a-person-turns-into-a-granular-bit-of-information" title="Permanent link"></a></h3>
+<h4 id="frank-chimero">Frank Chimero<a class="headerlink" href="#frank-chimero" title="Permanent link"></a></h4>
+<p>Chimero, F. (2011). The Space Between You and Me. <em>The Manual, 1</em>. p. 19</p>
+<p>Note:</p>
+<hr />
+<p><img alt="Screenshot of Analytics on Demand by Gale" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/gale.jpg" /></p>
+<p><a href="http://solutions.cengage.com/analytics/">Analytics on Demand</a></p>
+<hr />
+<!-- .slide: data-background-image="img/gale2.png" -->
+
+<h3 id="remove-a-persons-humanity-and-she-is-just-a-curiosity-a-pinpoint-on-a-map">Remove a person&rsquo;s humanity, and she is just a curiosity, a pinpoint on a map&hellip;<a class="headerlink" href="#remove-a-persons-humanity-and-she-is-just-a-curiosity-a-pinpoint-on-a-map" title="Permanent link"></a></h3>
+<p>Chimero, F. (2011). The Space Between You and Me. <em>The Manual, 1</em>. p. 19</p>
+<hr />
+<h1 id="personas"><span class="blue">Personas</span><a class="headerlink" href="#personas" title="Permanent link"></a></h1>
+<hr />
+<!-- .slide: data-background-image="img/hall.jpg" -->
+
+<h3 id="by-designing-for-yourself-or-your-team-you-are-potentially-building-discrimination-right-into-your-product">By designing for yourself or your team, you are potentially building discrimination right into your product.<a class="headerlink" href="#by-designing-for-yourself-or-your-team-you-are-potentially-building-discrimination-right-into-your-product" title="Permanent link"></a></h3>
+<h4 id="erica-hall">Erica Hall<a class="headerlink" href="#erica-hall" title="Permanent link"></a></h4>
+<p>Hall, E. (2013). <em>Just Enough Research</em>. New York: A Book Apart. p. 79</p>
+<hr />
+<p><img alt="Montana State University Library's Student Personas" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/montanapersona1.png" /></p>
+<p><a href="https://lib.montana.edu/design-research/personas">Montana State Univesity Library: Design Research &gt; Personas</a></p>
+<p>Note:
+Who are we designing for? A lot of us use personas in our work. Think of personas like trading cards, where each card represents some type of user, like &ldquo;undergraduate students majoring in science&rdquo; or &ldquo;parents of small children.&rdquo; The persona will have a summary of typical goals for that group of users and a choice quote that helps you summarize user needs, as well as an identity created to help you understand the demographics you are designing for. </p>
+<p>These are some of the personas from Montana State University Library. They&rsquo;ve done a really great job of documenting how they made these personas and how they use them.</p>
+<hr />
+<p><img alt="Montana State University Library's Faculty Personas" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/montanapersona2.png" /></p>
+<p><a href="https://lib.montana.edu/design-research/personas">Montana State University Library: Design Research &gt; Personas</a></p>
+<p>Note:
+Here are a few more. Do you notice anything about these personas? Anything they have in common?</p>
+<p>They&rsquo;re all smiling. The images that were chosen for these people are all happy images. Even the adjunct professor is smiling, even though he&rsquo;s making less than a barista at Starbucks!</p>
+<p>Are our users are super happy to be in the library? Are they all having terrific lives, and nothing is going to affect the work they do in our spaces, with our services or tools?</p>
+<hr />
+<!-- .slide: data-background-image="img/mcgrane.jpg" -->
+
+<h3 id="who-am-i-designing-for-the-expert-automaton-programmed-to-complete-each-task-flawlessly-or-the-messy-error-prone-distracted-human">Who am I designing for? The expert automaton, programmed to complete each task flawlessly? Or the messy, error-prone, distracted human?<a class="headerlink" href="#who-am-i-designing-for-the-expert-automaton-programmed-to-complete-each-task-flawlessly-or-the-messy-error-prone-distracted-human" title="Permanent link"></a></h3>
+<h4 id="karen-mcgrane">Karen McGrane<a class="headerlink" href="#karen-mcgrane" title="Permanent link"></a></h4>
+<p>McGrane, K. (2011). Lesson. <em>The Manual (2)</em>. p.45</p>
+<p>Note:</p>
+<hr />
+<p><img alt="GVSU Personas" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/gvsupersonas.jpg" /></p>
+<p><a href="http://libguides.gvsu.edu/styleguide/understandingusers">Smiling GVSU Personas</a></p>
+<p>Note:
+Just so that you don&rsquo;t think I&rsquo;m being too hard on Montana State, here are the smiling users on the personas I made for GVSU three years ago.</p>
+<p>Look around at personas. And not just in libraries - everywhere. Personas are all smiling! Even when a user story isn&rsquo;t all happy (like the acknowledgment in Montana&rsquo;s adjunct persona that his contract is unpredictable) the user is smiling.</p>
+<p>This can subtly affect how you think of the users you are designing for. </p>
+<hr />
+<!-- .slide: data-background-image="img/meyer.jpg" -->
+
+<h3 id="you-dont-get-to-decide-whether-or-not-users-in-crisis-want-to-use-your-site">You don&rsquo;t get to decide whether or not users in crisis want to use your site.<a class="headerlink" href="#you-dont-get-to-decide-whether-or-not-users-in-crisis-want-to-use-your-site" title="Permanent link"></a></h3>
+<h4 id="eric-meyer">Eric Meyer<a class="headerlink" href="#eric-meyer" title="Permanent link"></a></h4>
+<p><a href="http://thewebahead.net/91">Designing for Crisis with Eric Meyer, <em>The Web Ahead</em>, January 9, 2015</a></p>
+<p>Note:</p>
+<hr />
+<h1 id="algorithms"><span class="blue">Algorithms</span><a class="headerlink" href="#algorithms" title="Permanent link"></a></h1>
+<hr />
+<!-- .slide: data-background-image="img/ekstrom.jpg" -->
+
+<h3 id="behind-every-algorithm-is-always-a-person-a-person-with-a-set-of-personal-beliefs-that-no-code-can-ever-completely-eradicate">Behind every algorithm is always a person, a person with a set of personal beliefs that no code can ever completely eradicate.<a class="headerlink" href="#behind-every-algorithm-is-always-a-person-a-person-with-a-set-of-personal-beliefs-that-no-code-can-ever-completely-eradicate" title="Permanent link"></a></h3>
+<h4 id="andreas-ekstrom">Andreas Ekström<a class="headerlink" href="#andreas-ekstrom" title="Permanent link"></a></h4>
+<p><a href="https://www.ted.com/talks/andreas_ekstrom_the_moral_bias_behind_your_search_results">The Moral Bias Behind Your Search Results</a></p>
+<hr />
+<!-- .slide: data-background-image="img/gillespie.jpg" -->
+
+<h3 id="quick-clicks-and-no-follow-up-searches-are-an-approximation-not-of-relevance-exactly-but-of-satisfaction">Quick clicks and no follow-up searches [are] an approximation, not of relevance exactly, but of satisfaction.<a class="headerlink" href="#quick-clicks-and-no-follow-up-searches-are-an-approximation-not-of-relevance-exactly-but-of-satisfaction" title="Permanent link"></a></h3>
+<h4 id="tarleton-gillespie">Tarleton Gillespie<a class="headerlink" href="#tarleton-gillespie" title="Permanent link"></a></h4>
+<p>Gillespie, T. (2014). The Relevance of Algorithms. In T. Gillespie, P. Boczkowski &amp; K. Foot (Eds.), <em>Media Technologies: Essays on Communication, Materiality, and Society</em>. Cambridge, MA: MIT Press. p. 175</p>
+<hr />
+<p><img alt="Screenshot of Summon search showing heart attack equated with myocardial infarction" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/heartattack.png" /></p>
+<p>Topic Explorer Example</p>
+<hr />
+<p><img alt="Screenshot of Summon search showing virginity equated with sexual abstinence" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/virginity.png" /></p>
+<p>Equating Virginity with Sexual Abstinence</p>
+<hr />
+<p><img alt="Search suggestion of NY City waste as NY city women" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/waste.jpg" /></p>
+<p><a href="http://damnyouautosuggest.tumblr.com/post/114699603389/oh-go-to-hell">From Damn You, Autosuggest</a></p>
+<hr />
+<p><img alt="Screenshot of Summon search equating rape with hearsay evidence" src="/Users/mreidsma/Dropbox/mreidsma/GVSU/Presentations/talks/ethicalux/img/rapeintheus.png" /></p>
+<p>Implying that rape accusations are akin to Hearsay evidence?</p>
+<hr />
+<!-- .slide: data-background-image="img/ananny.jpg" -->
+
+<h3 id="reckless-associationsmade-by-humans-or-computerscan-do-very-real-harm-especially-when-they-appear-in-supposedly-neutral-environments">Reckless associations—made by humans or computers—can do very real harm especially when they appear in supposedly neutral environments.<a class="headerlink" href="#reckless-associationsmade-by-humans-or-computerscan-do-very-real-harm-especially-when-they-appear-in-supposedly-neutral-environments" title="Permanent link"></a></h3>
+<h4 id="mike-ananny">Mike Ananny<a class="headerlink" href="#mike-ananny" title="Permanent link"></a></h4>
+<p><a href="https://www.theatlantic.com/technology/archive/2011/04/the-curious-connection-between-apps-for-gay-men-and-sex-offenders/237340/">The Curious Connection Between Apps for Gay Men and Sex Offenders</a></p>
+<hr />
+<!-- .slide: data-background-image="img/zomorodi.jpg" -->
+
+<h3 id="you-need-to-have-diverse-people-to-get-diverse-algorithms">You need to have diverse people to get diverse algorithms.<a class="headerlink" href="#you-need-to-have-diverse-people-to-get-diverse-algorithms" title="Permanent link"></a></h3>
+<h4 id="manoush-zomorodi">Manoush Zomorodi<a class="headerlink" href="#manoush-zomorodi" title="Permanent link"></a></h4>
+<p><a href="https://www.wnyc.org/story/bonus-privacy-paradox/">Privacy, Data Survivalism and a New Tech Ethics, <em>Note to Self</em>, Feb 21, 2017</a></p>
+<hr />
+<!-- .slide: data-background-image="img/soylent.jpg" data-transition="fade-in" data-transition-speed="slow" -->
+
+<h1 id="your-library-is-people"><span class="raleway">Your Library is</span> <span class="blue" style="display:block;font-size:2em;">People</span><a class="headerlink" href="#your-library-is-people" title="Permanent link"></a></h1>
+<hr />
+<h1 id="thankyou"><span style="display:inline;font-family:Raleway;font-weight:100;">Thank</span><span class="blue">You</span><a class="headerlink" href="#thankyou" title="Permanent link"></a></h1></article></body></html>

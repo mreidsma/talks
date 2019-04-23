@@ -232,18 +232,6 @@ Note:
 
 -----
 
-<!-- .slide: data-background-image="img/montero.jpg" -->
-
-### We need to fear the consequences of our work more than we love the cleverness of our ideas.
-
-#### Mike Monteiro
-
-[How Designers Destroyed the World](https://vimeo.com/68470326)
-
-Note:
-
------
-
 <!-- .slide: data-background-image="img/papanek.jpg" -->
 
 ### [The designer’s] social and moral judgment must be brought into play long before [she] begins to design.
@@ -254,6 +242,19 @@ Papanek, V. (1971). *Design for the Real World: Human ecology and social change*
 
 Note:
 Focus on people over data
+
+
+-----
+
+<!-- .slide: data-background-image="img/montero.jpg" -->
+
+### We need to fear the consequences of our work more than we love the cleverness of our ideas.
+
+#### Mike Monteiro
+
+[How Designers Destroyed the World](https://vimeo.com/68470326)
+
+Note:
 
 -----
 
@@ -392,7 +393,16 @@ Note:
 
 -----
 
-# <span class="blue">Algorithms</span>
+
+![Indi Young on Twitter](img/indy.png)
+
+[Indi Young on Twitter](https://twitter.com/indiyoung/status/708079183927181312)
+
+Note:
+
+-----
+
+# Search<br /><span class="blue">Algorithms</span>
 
 -----
 
@@ -414,6 +424,12 @@ Note:
 
 Gillespie, T. (2014). The Relevance of Algorithms. In T. Gillespie, P. Boczkowski & K. Foot (Eds.), *Media Technologies: Essays on Communication, Materiality, and Society*. Cambridge, MA: MIT Press. p. 175
 
+-----
+
+<img src="img/lgbtq.jpg" style="max-width: 60%" alt="Known item search that matches LGBT with mental illness" />
+
+Known item search that matches LGBT with mental illness
+
 
 -----
 
@@ -429,15 +445,57 @@ Equating Virginity with Sexual Abstinence
 
 -----
 
+![Summon Topic explorer result for Barack Obama, 2019](img/obama.png)
+
+Barack Obama listed as the current president in 2019.
+
+-----
+
+![Summon Topic explorer result for Donald Trump, 2019](img/trump.png)
+
+Donald Trump not listed as president in 2019.
+
+-----
+
+![Summon Topic explorer result for Osama bin Laden, 2019](img/osama.png)
+
+Osama bin Laden still shown as alive, 2019.
+
+-----
+
 ![Search suggestion of NY City waste as NY city women](img/waste.jpg)
 
 [From Damn You, Autosuggest](http://damnyouautosuggest.tumblr.com/post/114699603389/oh-go-to-hell)
 
 -----
 
+![Women in film equated with women in prison films](img/womeninfilm.png)
+
+Summon suggesting that the only films women are in are exploitation films.
+
+-----
+
+![Screenshot of EDS search equating racism with scientific racism](img/scientificracism.png)
+
+Implying that racism is really "scientific"?
+
+-----
+
+![Screenshot of EDS search showing Clarence Thomas alongsid sexual harrassment topic](img/clarence.png)
+
+Illustrating a summary of sexual harrassment by showing an African American man in EDS.
+
+-----
+
 ![Screenshot of Summon search equating rape with hearsay evidence](img/rapeintheus.png)
 
 Implying that rape accusations are akin to Hearsay evidence?
+
+-----
+
+![Screenshot of EDS search suggesting that rape culture is a myth](img/myth.png)
+
+What's the first rape myth? Rape culture, according to EDS.
 
 -----
 
@@ -451,6 +509,32 @@ Implying that rape accusations are akin to Hearsay evidence?
 
 -----
 
+![Use design to undermine the objectivity of our search tools](img/undermine.png)
+
+Undermine the objectivity of our search tools
+
+-----
+
+
+### Ethnography should be core to the business of the library.
+
+#### Donna Lanclos and Andrew Asher
+
+["'Ethnographish': The State of the Ethnography in Libraries," *Weave Journal of Library User Experience*]](http://dx.doi.org/10.3998/weave.12535642.0001.503)
+
+
+-----
+
+<!-- .slide: data-background-image="img/anderson.jpg" -->
+
+### All design influences behavior, even if we're not intentional about the desired behaviors.
+
+#### Stephen P. Anderson
+
+[Towards an Ethics of Persuasion](http://uxmag.com/articles/towards-an-ethics-of-persuasion)
+
+-----
+
 <!-- .slide: data-background-image="img/zomorodi.jpg" -->
 
 ### You need to have diverse people to get diverse algorithms.
@@ -459,6 +543,15 @@ Implying that rape accusations are akin to Hearsay evidence?
 
 [Privacy, Data Survivalism and a New Tech Ethics, *Note to Self*, Feb 21, 2017](https://www.wnyc.org/story/bonus-privacy-paradox/)
 
+-----
+
+<!-- .slide: data-background-image="img/cook.jpg" -->
+
+### It’s incumbent upon us ... to surface the way these systems are constructed and the potential for bias and leading that such systems create.
+
+#### Dani Brecher Cook
+
+["Information Literacy Implications of 'Algorithmic Bias in Library Discovery Systems'"](https://rulenumberoneblog.com/2016/03/14/information-literacy-implications-of-algorithmic-bias-in-library-discovery-systems/)
 
 -----
 
@@ -469,6 +562,12 @@ Implying that rape accusations are akin to Hearsay evidence?
 -----
 
 # <span style="display:inline;font-family:Raleway;font-weight:100;">Thank</span><span class="blue">You</span> 
+
+-----
+
+<img src="img/maskedbytrust.jpg" alt="Masked by Trust by Matthew Reidsma" style="max-width: 50%;" />
+
+*Masked by Trust: Bias in Library Discovery* will be published later this year by Library Juice Press.
 
 
 
