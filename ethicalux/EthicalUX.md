@@ -439,12 +439,6 @@ Topic Explorer Example
 
 -----
 
-![Screenshot of Summon search showing virginity equated with sexual abstinence](img/virginity.png)
-
-Equating Virginity with Sexual Abstinence
-
------
-
 ![Summon Topic explorer result for Barack Obama, 2019](img/obama.png)
 
 Barack Obama listed as the current president in 2019.
@@ -460,6 +454,14 @@ Donald Trump not listed as president in 2019.
 ![Summon Topic explorer result for Osama bin Laden, 2019](img/osama.png)
 
 Osama bin Laden still shown as alive, 2019.
+
+
+-----
+
+![Screenshot of Summon search showing virginity equated with sexual abstinence](img/virginity.png)
+
+Equating Virginity with Sexual Abstinence
+
 
 -----
 
@@ -535,6 +537,16 @@ Undermine the objectivity of our search tools
 
 -----
 
+<!-- .slide: data-background-image="img/cook.jpg" -->
+
+### It’s incumbent upon us ... to surface the way these systems are constructed and the potential for bias and leading that such systems create.
+
+#### Dani Brecher Cook
+
+["Information Literacy Implications of 'Algorithmic Bias in Library Discovery Systems'"](https://rulenumberoneblog.com/2016/03/14/information-literacy-implications-of-algorithmic-bias-in-library-discovery-systems/)
+
+-----
+
 <!-- .slide: data-background-image="img/zomorodi.jpg" -->
 
 ### You need to have diverse people to get diverse algorithms.
@@ -545,13 +557,9 @@ Undermine the objectivity of our search tools
 
 -----
 
-<!-- .slide: data-background-image="img/cook.jpg" -->
+<img src="img/maskedbytrust.jpg" alt="Masked by Trust by Matthew Reidsma" style="max-width: 50%;" />
 
-### It’s incumbent upon us ... to surface the way these systems are constructed and the potential for bias and leading that such systems create.
-
-#### Dani Brecher Cook
-
-["Information Literacy Implications of 'Algorithmic Bias in Library Discovery Systems'"](https://rulenumberoneblog.com/2016/03/14/information-literacy-implications-of-algorithmic-bias-in-library-discovery-systems/)
+*Masked by Trust: Bias in Library Discovery* will be published later this year by Library Juice Press.
 
 -----
 
@@ -563,11 +571,7 @@ Undermine the objectivity of our search tools
 
 # <span style="display:inline;font-family:Raleway;font-weight:100;">Thank</span><span class="blue">You</span> 
 
------
 
-<img src="img/maskedbytrust.jpg" alt="Masked by Trust by Matthew Reidsma" style="max-width: 50%;" />
-
-*Masked by Trust: Bias in Library Discovery* will be published later this year by Library Juice Press.
 
 
 
