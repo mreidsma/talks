@@ -511,6 +511,10 @@ What's the first rape myth? Rape culture, according to EDS.
 
 -----
 
+# <span class="blue">What</span> Can We Do?
+
+-----
+
 ![Use design to undermine the objectivity of our search tools](img/undermine.png)
 
 Undermine the objectivity of our search tools
@@ -557,7 +561,7 @@ Undermine the objectivity of our search tools
 
 -----
 
-<img src="img/maskedbytrust.jpg" alt="Masked by Trust by Matthew Reidsma" style="max-width: 50%;" />
+<img src="img/maskedbytrust.jpg" alt="Masked by Trust by Matthew Reidsma" style="max-width: 35%;" />
 
 *Masked by Trust: Bias in Library Discovery* will be published later this year by Library Juice Press.
 
