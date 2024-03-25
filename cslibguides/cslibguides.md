@@ -44,7 +44,6 @@
 
 -----
 
------
 
 ### Libraries lack an editorial culture where content production and management is viewed as a collective rather than a personal effort.
 
@@ -66,13 +65,11 @@
 
 Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. p. 4.
 
-
 -----
 
 <img src="img/appropriate.jpg" al="Good content helps users achieve their goals" style="width:75%;" />
+
 -----
-
-
 
 <!-- .slide: data-background-image="img/kissane.jpg" -->
 
