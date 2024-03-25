@@ -183,7 +183,7 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 
 -----
 
-<img src="img/libdesign.png" al="Libraries like everything" style="width:75%;" />
+<img src="img/librarydesign.png" al="Libraries like everything" style="width:75%;" />
 
 [E. Bell](https://twitter.com/#!/ebellempire/status/172355190232592384)
 
