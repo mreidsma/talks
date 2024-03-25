@@ -207,11 +207,9 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 
 -----
 
-UL Style Guide: [https://gvsu.edu/library/styleguide](https://gvsu.edu/library/styleguide)
-
-LibGuides Best Practices: [https://libguides.gvsu.edu/libguideshelp](https://libguides.gvsu.edu/libguideshelp)
-
-Search Forms: [https://libguides.gvsu.edu/searchforms](https://libguides.gvsu.edu/searchforms)
+* UL Style Guide: [https://gvsu.edu/library/styleguide](https://gvsu.edu/library/styleguide)
+* LibGuides Best Practices: [https://libguides.gvsu.edu/libguideshelp](https://libguides.gvsu.edu/libguideshelp)
+* Search Forms: [https://libguides.gvsu.edu/searchforms](https://libguides.gvsu.edu/searchforms)
 
 -----
 
