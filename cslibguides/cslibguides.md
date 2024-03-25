@@ -1,7 +1,7 @@
 
-# <span class="raleway" style="font-size:1.3em;letter-spacing:.08em;margin-left:.15em;">Content</span> <span class="blue" style="font-size: 1em; line-height:.7em;">&amp; Stretegy</span>
+# <span class="raleway" style="font-size:1.3em;letter-spacing:.08em;margin-left:.15em;">Content Strategy</span><br /><span class="blue" style="font-size: 1em; line-height:.7em;">For LibGuides</span>
 
-<p style="text-transform:uppercase;">for <span class="blue">LibGuides</span></p>
+<p style="text-transform:uppercase;">Matthew Reidsma</p>
 
 -----
 
