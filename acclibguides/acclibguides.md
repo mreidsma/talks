@@ -74,7 +74,7 @@
 
 -----
 
-<img src="img/alttextsample.jpg" alt="Man in wizard robes and goggles burning a dollar bill" style="width: 80%;" />
+<img src="img/alttextsample.jpg" alt="Man in wizard robes and goggles burning a dollar bill" style="width: 32%;" />
 
 -----
 
