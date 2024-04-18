@@ -70,11 +70,11 @@
 
 -----
 
-<h1><span class="blue">Accessible</span> <br />vs. <br />non-accessible <br />content</h1>
+<h1><span class="blue">Accessible</span> <br />vs. <br /><span class="blue">non-accessible</span> <br />content</h1>
 
 -----
 
-<img src="img/alttextsample.jpg" alt="Man in wizard robes and goggles burning a dollar bill" style="height: 80%;" />
+<img src="img/alttextsample.jpg" alt="Man in wizard robes and goggles burning a dollar bill" style="width: 80%;" />
 
 -----
 
@@ -95,7 +95,7 @@
 
 -----
 
-<img src="img/links-windoweyes.jpg" alt="Screen reader showing list of links" style="height: 80%;"/>
+<img src="img/links-windoweyes.jpg" alt="Screen reader showing list of links" style="width: 35%;"/>
 
 -----
 
@@ -151,7 +151,7 @@
 
 -----
 
-<img src="img/alttext.png" alt="LibGuides Rich Text Editor and the Alt Text Field" style="height: 80%;" />
+<img src="img/alttext.png" alt="LibGuides Rich Text Editor and the Alt Text Field" style="width: 65%;" />
 
 -----
 
@@ -163,7 +163,7 @@
 
 -----
 
-<img src="img/media.png" alt="LibGuides Media/Widget editor" style="height: 80%;" />
+<img src="img/media.png" alt="LibGuides Media/Widget editor" style="width: 65%;" />
 
 -----
 
@@ -176,7 +176,7 @@
 
 -----
 
-<img src="img/headings.png" alt="LibGuides Rich Text Editor allows you to choose the heading level" style="height: 80%;" />
+<img src="img/headings.png" alt="LibGuides Rich Text Editor allows you to choose the heading level" style="width: 60%;" />
 
 -----
 
