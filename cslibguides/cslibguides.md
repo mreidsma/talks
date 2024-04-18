@@ -1,7 +1,7 @@
 
-# <span class="raleway" style="font-size:1.3em;letter-spacing:.08em;margin-left:.15em;">Content</span> <span class="blue" style="font-size: 1em; line-height:.7em;">&amp; Stretegy</span>
+# <span class="raleway" style="font-size:1.3em;letter-spacing:.08em;margin-left:.15em;">Content Strategy</span><br /><span class="blue" style="font-size: 1em; line-height:.7em;">For LibGuides</span>
 
-<p style="text-transform:uppercase;">for <span class="blue">LibGuides</span></p>
+<p style="text-transform:uppercase;">Matthew Reidsma</p>
 
 -----
 
@@ -64,13 +64,12 @@
 
 Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. p. 4.
 
-
 -----
 
-<img src="img/appropriate.jpg" al="Good content helps users achieve their goals" />
+
+<img src="img/appropriate.jpg" al="Good content helps users achieve their goals" style="width:75%;" />
 
 -----
-
 
 <!-- .slide: data-background-image="img/kissane.jpg" -->
 
@@ -184,7 +183,7 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 
 -----
 
-<img src="img/libdesign.png" al="Libraries like everything" style="width:75%;" />
+<img src="img/librarydesign.png" al="Libraries like everything" style="width:75%;" />
 
 [E. Bell](https://twitter.com/#!/ebellempire/status/172355190232592384)
 
@@ -211,6 +210,7 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 * UL Style Guide: [https://gvsu.edu/library/styleguide](https://gvsu.edu/library/styleguide)
 * LibGuides Best Practices: [https://libguides.gvsu.edu/libguideshelp](https://libguides.gvsu.edu/libguideshelp)
 * Search Forms: [https://libguides.gvsu.edu/searchforms](https://libguides.gvsu.edu/searchforms)
+* Content Strategy Checklist: [https://alistapart.com/article/a-checklist-for-content-work/](https://alistapart.com/article/a-checklist-for-content-work/)
 
 -----
 
