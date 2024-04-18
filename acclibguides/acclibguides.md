@@ -265,7 +265,7 @@
 
 -----
 
-<img src="img/webaim.png" al="WebAIM Wave website tools" style="width:75%;" />
+<img src="img/webaim.png" al="WebAIM Wave website tools" />
 
 -----
 
@@ -280,7 +280,7 @@
 
 -----
 
-<img src="img/deque.png" al="deQue aXe tool" style="width:75%;" />
+<img src="img/deque.png" al="deQue aXe tool" />
 
 -----
 
@@ -288,7 +288,7 @@
 
 <ol>
 	<li class="blue">WAVE WebAIM Plugin</li>
-	<li class="bllue">Deque aXe</li>
+	<li class="blue">Deque aXe</li>
 	<li>Silktide*</li>
 </ol>
 
@@ -296,7 +296,7 @@
 
 -----
 
-<img src="img/silktide.png" al="deQue aXe tool" style="width:75%;" />
+<img src="img/silktide.png" al="Silktide for Accessibility" />
 
 -----
 
@@ -304,18 +304,20 @@
 
 <ol>
 	<li class="blue">WAVE WebAIM Plugin</li>
-	<li class="bllue">Deque aXe
+	<li class="blue">Deque aXe
 	</li>
 	<li class="blue">Silktide*</li>
 	<li>Grammarly</li>
 </ol>
 
+[Grammarly](https://www.grammarly.com/browser/chrome)
+
 -----
 
 <h1>Manual checks</h1>
 
 <ol>
-	<li>alt Text</li>
+	<li>Alternative Text</li>
 </ol>
 
 -----
@@ -323,16 +325,16 @@
 <h1>Manual checks</h1>
 
 <ol>
-	<li class="blue">alt Text</li>
+	<li class="blue">Alternative Text</li>
 	<li>Review Link Text</li>
 </ol>
 
 -----
 
-* UL Style Guide: [https://gvsu.edu/library/styleguide](https://gvsu.edu/library/styleguide)
-* LibGuides Best Practices: [https://libguides.gvsu.edu/libguideshelp](https://libguides.gvsu.edu/libguideshelp)
-* 4 Syllables Accessibility Articles: [https://4syllables.com.au/articles/category/accessibility](https://4syllables.com.au/articles/category/accessibility)
-* GVSU Web Accessibility Site: [https://www.gvsu.edu/accessibility/](https://www.gvsu.edu/accessibility/)
+* [UL Style Guide:](https://gvsu.edu/library/styleguide)
+* [LibGuides Best Practices](https://libguides.gvsu.edu/libguideshelp)
+* [4 Syllables Accessibility Articles](https://4syllables.com.au/articles/category/accessibility)
+* [GVSU Web Accessibility Site](https://www.gvsu.edu/accessibility/)
 
 -----
 
