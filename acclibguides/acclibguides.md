@@ -250,7 +250,7 @@
 -----
 
 
-<h1>Oops I made <span class="blue">Inaccessible</span> Content</h1>
+<h1>Oops I made <br /><span class="blue">Inaccessible</span> <br />Content</h1>
 
 
 -----
