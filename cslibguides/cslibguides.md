@@ -44,8 +44,6 @@
 
 -----
 
------
-
 ### Libraries lack an editorial culture where content production and management is viewed as a collective rather than a personal effort.
 
 #### Suzanne Chapman and Ian Demsky
@@ -69,9 +67,9 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 
 -----
 
-<img src="img/appropriate.jpg" al="Good content helps users achieve their goals" style="width:75%;" />
------
+<img src="img/appropriate.jpg" al="Good content helps users achieve their goals" />
 
+-----
 
 
 <!-- .slide: data-background-image="img/kissane.jpg" -->
@@ -210,11 +208,9 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 
 -----
 
-UL Style Guide: [https://gvsu.edu/library/styleguide](https://gvsu.edu/library/styleguide)
-
-LibGuides Best Practices: [https://libguides.gvsu.edu/libguideshelp](https://libguides.gvsu.edu/libguideshelp)
-
-Search Forms: [https://libguides.gvsu.edu/searchforms](https://libguides.gvsu.edu/searchforms)
+* UL Style Guide: [https://gvsu.edu/library/styleguide](https://gvsu.edu/library/styleguide)
+* LibGuides Best Practices: [https://libguides.gvsu.edu/libguideshelp](https://libguides.gvsu.edu/libguideshelp)
+* Search Forms: [https://libguides.gvsu.edu/searchforms](https://libguides.gvsu.edu/searchforms)
 
 -----
 
