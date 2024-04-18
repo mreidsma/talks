@@ -1,7 +1,7 @@
 
-# <span class="raleway blue" style="font-size:1.3em;letter-spacing:.08em;margin-left:.15em;">Accessibility</span>
+# <span class="raleway blue" style="font-size:1.3em;letter-spacing:.08em;margin-left:.15em;">Accessibility</span><br /><span style="text-transform:uppercase;" class="blue">for LibGuides</span>
 
-<p style="text-transform:uppercase;">for <span class="blue">LibGuides</span></p>
+<p style="text-transform:uppercase;">for <span class="blue">Matthew Reidsma, April 19, 2024</span></p>
 
 -----
 
@@ -61,7 +61,7 @@
 
 -----
 
-<h1>What is an <span class="blue">Assistive Device</span>?</h1>
+<h1>What is <br />an <span class="blue">Assistive Device</span>?</h1>
 
 -----
 
@@ -70,11 +70,11 @@
 
 -----
 
-<h1><span class="blue">Accessible</span> vs. non-accessible content</h1>
+<h1><span class="blue">Accessible</span> <br />vs. <br />non-accessible <br />content</h1>
 
 -----
 
-<img src="img/alttextsample.jpg" alt="Man in wizard robes and goggles burning a dollar bill" />
+<img src="img/alttextsample.jpg" alt="Man in wizard robes and goggles burning a dollar bill" style="height: 80%;" />
 
 -----
 
@@ -113,10 +113,10 @@
 -----
 
 <pre><code>
-	&lt;h1&gt;
-	&lt;h2&gt;
-	&lt;h3&gt;
-	&lt;p&gt;&lt;strong&gt;
+	&lt;h1&gt;Main Heading&lt;/h1&gt;
+	&lt;h2&gt;Sub-Heading&lt;/h1&gt;
+	&lt;h3&gt;Sub-Sub-Heading&lt;/h1&gt;
+	&lt;p&gt;&lt;strong&gt;Pretending to be a Heading&lt;/strong&gt;&lt;/p&gt;
 </code></pre>
 
 [Headings and labels - accessibility for web writers](https://4syllables.com.au/articles/accessibility-writers-labels)
