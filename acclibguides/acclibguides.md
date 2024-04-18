@@ -95,7 +95,7 @@
 
 -----
 
-<img src="img/links-windoweyes.jpg" alt="Screen reader showing list of links" />
+<img src="img/links-windoweyes.jpg" alt="Screen reader showing list of links" style="height: 80%;"/>
 
 -----
 
@@ -151,7 +151,7 @@
 
 -----
 
-<img src="img/alttext.png" alt="LibGuides Rich Text Editor and the Alt Text Field" />
+<img src="img/alttext.png" alt="LibGuides Rich Text Editor and the Alt Text Field" style="height: 80%;" />
 
 -----
 
@@ -163,7 +163,7 @@
 
 -----
 
-<img src="img/media.png" alt="LibGuides Media/Widget editor" />
+<img src="img/media.png" alt="LibGuides Media/Widget editor" style="height: 80%;" />
 
 -----
 
@@ -176,7 +176,7 @@
 
 -----
 
-<img src="img/headings.png" alt="LibGuides Rich Text Editor allows you to choose the heading level" />
+<img src="img/headings.png" alt="LibGuides Rich Text Editor allows you to choose the heading level" style="height: 80%;" />
 
 -----
 
