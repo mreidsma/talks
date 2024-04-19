@@ -1,5 +1,5 @@
 
-# <span class="raleway blue" style="font-size:1.3em;letter-spacing:.08em;margin-left:.15em;">Accessibility</span><br /><span style="text-transform:uppercase;" class="blue">for LibGuides</span>
+# <span class="raleway" style="font-size:1.3em;letter-spacing:.08em;margin-left:.15em;">Accessibility</span><br /><span style="text-transform:uppercase;" class="blue">for LibGuides</span>
 
 <p style="text-transform:uppercase;">Matthew <span class="blue">Reidsma, April 19, 2024</span></p>
 
