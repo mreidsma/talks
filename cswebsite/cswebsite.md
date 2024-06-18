@@ -91,9 +91,7 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 -----
 
 
-<img src="img/useful3.png" al="LibGuides Stats" style="width:75%;" />
-
------
+<img src="img/useful3.png" al="LibGuides Stats" style="width:35%;" />
 
 -----
 
