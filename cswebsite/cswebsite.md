@@ -81,10 +81,22 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 
 -----
 
-<img src="img/stats.png" al="LibGuides Stats" style="width:75%;" />
+<img src="img/useful1.png" al="LibGuides Stats" style="width:75%;" />
 
 
 -----
+
+<img src="img/useful2.png" al="LibGuides Stats" style="width:75%;" />
+
+-----
+
+
+<img src="img/useful3.png" al="LibGuides Stats" style="width:75%;" />
+
+-----
+
+-----
+
 
 <!-- .slide: data-background-image="img/kissane.jpg" -->
 
@@ -126,48 +138,9 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 
 -----
 
-### 1. Assets (Links, Images, Databases, etc.)
+<img src="img/consistent.png" al="Libraries like everything" style="width:75%;" />
 
------
-
-<img src="img/asset.png" al="Good interface design is writing clearly" style="width:75%;" />
-
------
-
-
-### 1. Assets (Links, Images, Databases, etc.)
-### 2. Boxes
-
------
-
-<img src="img/box.png" al="Good interface design is writing clearly" style="width:75%;" />
-
------
-
-### 1. Assets (Links, Images, Databases, etc.)
-### 2. Boxes
-### 3. Pages
-
------
-
-<img src="img/page.png" al="Good interface design is writing clearly" style="width:75%;" />
-
------
-
-
-### 1. Assets (Links, Images, Databases, etc.)
-### 2. Boxes
-### 3. Pages
-### 4. Guides
-
------
-
-<img src="img/guide.png" al="Good interface design is writing clearly" style="width:75%;" />
-
------
-
-
-<img src="img/master.png" al="Good interface design is writing clearly" style="width:75%;" />
+[Univeristy Libraries Style Guide](https://libguides.gvsu.edu/styleguide/namingconventions)
 
 -----
 
@@ -178,7 +151,6 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 #### Erin Kissane
 
 Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. p. 11.
-
 
 
 -----
@@ -208,8 +180,6 @@ Kissane, E. (2011). *The ELements of Content Strategy*. New York: A Book Apart. 
 -----
 
 * UL Style Guide: [https://gvsu.edu/library/styleguide](https://gvsu.edu/library/styleguide)
-* LibGuides Best Practices: [https://libguides.gvsu.edu/libguideshelp](https://libguides.gvsu.edu/libguideshelp)
-* Search Forms: [https://libguides.gvsu.edu/searchforms](https://libguides.gvsu.edu/searchforms)
 * Content Strategy Checklist: [https://alistapart.com/article/a-checklist-for-content-work/](https://alistapart.com/article/a-checklist-for-content-work/)
 
 -----
