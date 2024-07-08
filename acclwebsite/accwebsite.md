@@ -288,27 +288,12 @@
 
 -----
 
-<h1>Tools</h1>
-
-<ol>
-	<li class="blue">WAVE WebAIM Plugin</li>
-	<li>Deque aXe</li>
-</ol>
-
-[Web Accessibility Evaluation Tool](https://wave.webaim.org)
-
------
-
-<img src="img/deque.png" al="deQue aXe tool" />
-
------
 
 <h1>Tools</h1>
 
 <ol>
 	<li class="blue">WAVE WebAIM Plugin</li>
-	<li class="blue">Deque aXe</li>
-	<li>Silktide*</li>
+	<li><a href="https://gvsu.edu/library" title="Live demo link">Silktide plugin</a></li>
 </ol>
 
 [Silktide](https://silktide.com)
@@ -323,8 +308,6 @@
 
 <ol>
 	<li class="blue">WAVE WebAIM Plugin</li>
-	<li class="blue">Deque aXe
-	</li>
 	<li class="blue">Silktide*</li>
 	<li>Grammarly</li>
 </ol>
@@ -336,10 +319,15 @@
 <h1>Manual checks</h1>
 
 <ol>
-	<li>Alternative Text</li>
+	<li>Alternative Text (Use Silktide!)</li>
 </ol>
 
 -----
+
+<img src="img/silktideplugin.png" al="Silktide for Accessibility" />
+
+-----
+
 
 <h1>Manual checks</h1>
 
