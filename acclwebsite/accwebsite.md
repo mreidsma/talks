@@ -319,15 +319,10 @@
 <h1>Manual checks</h1>
 
 <ol>
-	<li>Alternative Text (Use Silktide!)</li>
+	<li>Alternative Text (Use Silktide Plugin!)</li>
 </ol>
 
 -----
-
-<img src="img/silktideplugin.png" al="Silktide for Accessibility" />
-
------
-
 
 <h1>Manual checks</h1>
 
@@ -341,6 +336,7 @@
 * [UL Style Guide:](https://gvsu.edu/library/styleguide)
 * [4 Syllables Accessibility Articles](https://4syllables.com.au/articles/category/accessibility)
 * [GVSU Web Accessibility Site](https://www.gvsu.edu/accessibility/)
+* [Silktide Accessibility Plugin for Chrome](https://silktide.com/toolbar/)
 
 -----
 
