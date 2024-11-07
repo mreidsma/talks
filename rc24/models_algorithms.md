@@ -5,11 +5,16 @@
 
 -----
 
-# [gvsu.edu/library/bias](https://www.gvsu.edu/library/bias)
+### [gvsu.edu/library/bias](https://www.gvsu.edu/library/bias)
 
 -----
 
-<h1>Search Engines and <span class="blue">Trust</span></h1>
+<h1>Search Engines</h1> 
+
+-----
+
+
+<h1><span class="blue">Trust</span></h1>
 
 -----
 
@@ -63,7 +68,7 @@ Google Search bias issues from 2016.
 
 -----
 
-# Experiment
+### Experiment
 
 1. Open a Private Window
 2. Go to Google Image Search
@@ -71,7 +76,7 @@ Google Search bias issues from 2016.
 
 -----
 
-# Experiment
+### Experiment
 
 1. Open a Private Window
 2. Go to Google Image Search
@@ -150,57 +155,49 @@ Illustrating a summary of sexual harrassment by showing an African American man 
 
 -----
 
-# Experiment
+### Experiment
 
-1. Visit Davenport UNiversity's Library Search, powered by Summon
-2. Do a search for "The Birth of Tragedy"
-3. Try to identiofy how many different kinds of algorithmic results there are
+1. Visit Davenport University's Library
+2. Search for **"The Birth of Tragedy"**
+3. How many algorithmic results appear?
 4. Examine all the results.
 
 -----
 
-# Experiment
+### Experiment
 
-1. Visit Davenport University's Library Search
-2. Search for "Women in film"
+1. Visit Davenport University's Library
+2. Search for **"Women in film"**
 3. Examine all the different algorithmic results
 
 -----
 
-# Experiment
+### Experiment
 
-1. Visit GVSU's Library Search (EDS)
-2. Search for 
+1. Visit GVSU's Library Search
+2. Search for **"women"**
 3. Examine all the different algorithmic results
 
 -----
 
-# Experiment
+### Experiment
 
-1. Visit Georgia State UNiversity's Library Search (EDS)
-2. Click on "Concept Map" in the left column
+1. Visit Georgia State's Library
+2. Click on "Concept Map"
 3. Select the "Map" view
-3. Search for "Adolph Hitler"
-4. Does this concept map give an accurate sense of who Hitler was and what he did?
+3. Search for **"Adolph Hitler"**
+4. Evaluate the results
 
 -----
 
-# Experiment
+### Experiment
 
-1. Visit Google with it's new AI search
-2. Start typing "Did hitler" and examine the autosuggest results
+1. Visit Google
+2. Type **"Did hitler"** and examine the suggestions
 3. Select the first one
 4. Examine the AI generated result at the top.
 
 -----
 
 # <span style="display:inline;font-family:Raleway;font-weight:100;">Thank</span><span class="blue">You</span> 
-
-
-
-
-
-
-
-
 
