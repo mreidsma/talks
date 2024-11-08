@@ -1,115 +1,112 @@
-### Title slide:
+### Title Slide:
 
-Hello, Code4Lib.
-
------
+----
 
 ### Slide 1:
 
-Many library folks have a go-to search they use to try out different search tools. By using the same terms in many tools over a period of time, you can get a good sense of how a search tool's algorithms perform in comparison to other tools you've tried. I use "batman," because it's short, and the search results will be a mix of popular and scholarly sources, a variety of formats, and items from the 16th and 17th centuries. This itself is a crude but simple way to evaluate algorithms, but it id ruled more by gut and memory than analysis.  
-
+Before we start, I put together a quick guide with resources that we'll use during this workshop, as well as resources you can use to learn more. The URL is here, gvsu.edu/library/bias.
 -----
 
 ### Slide 2:
 
-In 2015 my colleague Jeffrey Daniels showed me the Summon search results for his go-to search: "Stress in the workplace." Jeff likes this search because 'stress' is a common engineering term as well as one common to psychology and the social sciences. The search demonstrates how well a system handles word proximities, and in this regard, Summon did well. There are no apparent results for evaluating bridge design. But Summon's Topic Explorer, the right-hand sidebar that provides contextual information about the topic you are searching for, had an issue. It suggested that Jeff's search for "stress in the workplace" was really a search about women in the workforce. Implying that stress at work was caused, perhaps, by women.
+Anyone besides me born before 1998, the year that Google launched? Search engines have existed for your entire lives. We use search for everything: finding restaurants and coffee shops, directions, book and movie recommendations (and reviews), and to settle an argument about what other TV that actor starred in last year. And research. We use it for research.
 
 -----
 
 ### Slide 3:
 
-I shared it with the Summon team, and within a day they blocked the result.
+Search engines spend a lot of time convincing us to trust them. Google has been the best at this - they even show you lots of answers eight on the search screen, so that it seems like Google is giving you the answer, when they might be pulling the content from Wikipedia, or an official website, or another service like Yelp.
 
+Library search tools are even more interested in building trust. Anyone here ever make the pitch to another student that the library search is better because it only searches content that has been vetted by publishers and journal editors? Back in the early 2000s, Libraries often used the slogan "Better than Google" to describe the library and its search. They were liars. Library Search was terrible, and is no where near as useful as Google even now.
+ 
 -----
 
 ### Slide 4:
 
-I started looking closer at the Topic Explorer, eventually combing through 8,000 searches that returned a Topic Explorer result and found a number of other problems, mostly in searches related to women, the LGBTQ community, African Americans, Muslims, and mental illness. I shared my results with the Summon team, and they "blocked" many of the problematic results, although not this one, or any search related to mental illness, which still suggests it is a "myth."
+Our culture has a pretty deeply held belief in the truth of things that come from computers. That's one reason why it's so difficult to explain to some people why you can't believe every post you see on Facebook, and why we have to teach folks to evaluate sources.
+
+Today's conversation will be looking at some bad things that come through these algorithms, that are extra problematic because we lean toward trust. SO to start us off, let's laugh a little. This trust in computers is highlighted by a terrific British sketch comedy show Little Britain. I give you "Computer Says No."
 
 -----
 
 ### Slide 5:
 
-It's important to note that they did not adjust the Topic Explorer algorithm. Instead, they hid  "problematic" results. In my conversations, I came to realize that they saw this as a technical problem, not a social or moral one. 
+Search tools, and almost everything online at this point, are made up of algorithms. You've probably heard that term a lot. Anyone want to define it for us?
 
-It reminded me of Paul Goodman's quip in the late 1960s about how technology is primarily an ethical undertaking. Goodman's point was that all our decisions about how people live and work and act in the world are fundamentally moral issues. But the growing body of research on critical algorithmic studies confirms that most if not all companies that produce algorithmic systems see them (or at least publicly claim to see them) as neutral, objective technical achievements. The footer of Google News, for instance, reminds us that the stories were "selected by an algorithm," and not by people, as if that absolves the company of any editorial issues.
-
-If we see biased results as a technical problem, an acceptable solution may be to hide the offending results. But solutions that make sense for technical issues will often be different from solutions that make sense for ethical issues. 
+At its core, an algorithm is a set of instructions to turn inputs into outputs. That's pretty broad, and doesn't have to be computer code! Library cataloging directions are an algorithm. But when we move algorithms to computers, we can combine them in all kinds of ways and make them very complex. But the problem is that computers only understand one language: binary. It's all numbers. Computers were designed to do math, and that is still technically what they do best.
 
 -----
 
 ### Slide 6:
 
-Some of our esteemed colleagues in this very room have pushed back against the idea that these systems are objective, neutral and exclusively technical. When I began researching library discovery algorithms, I began by reading a lot of critical studies of algorithms, which mostly focus on public, commercial systems that use algorithms: Google, Facebook, Twitter, policing and legal software. Very important work is bring done by an incredible community of journalists and scholars like Julia Angwin at Propublica, Zeynep Tufekci at the University of North Carolina, and Safiya Noble at the Annenberg School of Communication, whose new book *Algorithms of Oppression* comes out next week. (You should buy it, and get your library to buy it, too.) 
+This works for some things pretty well. Like, "What is the closest coffee shop to me" is something you can provide a factual answer for, because it can be measured. "What is the best coffee shop in Grand Rapids" is harder to quantify. What are the criteria? The most awards from Revue magazine? The most customers? The cheapest coffee? The most seating options? The "tastiest" coffee? How do you begin to quantify those judgments? 
 
-While a lot of academics focus on algorithms outside the academy, I was interested in the algorithms within Higher Ed that condition the learning environment.
+This gets to be a problem with algorithms. OK Cupid is a dating site built on algorithms that rank attractiveness and compatibility, some attributes that are pretty hard to quantify. Christian Rudder, one of the founders, is pretty up front about how hard it is to translate these non-numeric ideas into numbers.
 
 -----
 
 ### Slide 7:
 
-A basic definition of an algorithm is a set of steps used to process an input to produce an output (cf. Kitchin, 2017, p.14). So, to begin to audit an algorithm, we might want to know the steps the algorithm walks through, either in code or in pseudo-code. What decisions are being made? But here's the catch: all of the commercial discovery tools consider their search algorithms to be major intellectual property assets. They won't reveal the code or even pseudo-code to us.
+Back in 1995, 3 years before Google was founded, the anthropologist Sherry Turkle noted this same issue: if you want to succeed on the web, you need to find ways to quantify the uncountable.
 
-Of course, algorithms are hardly straightforward and linear, and it's unlikely we would be able to make heads or tails out of the code if we had access to it. And the steps built out of code are only part of the story: the index has to be considered, too. What the algorithm looks for only makes sense if you understand what it looks at. We don't even know the exact parameters of what is in the discovery service's index (although there is more clarity here, since the index is what shows up as visible outputs.)
+So software developers and designers and CEOs and entrepreneurs of all kinds started writing computer code that would translate things like attractiveness or relevance into quantifiable code. Seems like a lot of interesting decisions and judgments that would need to be made to make these translations into binary. Anyone here a computer science major? Do they have any ethics classes as a requirement?
 
 -----
 
 ### Slide 8:
 
-So, we look for hints, or proxies for the algorithm. I started by looking through Summon's administrative settings. Any setting that allowed me to change how results appear or are ranked gave a hint to something the algorithm values. The Summon documentation was also helpful. Articles explained what fields were searched, how records were de-duplicated, how the algorithm determines "relevance" (in very general terms), and how to conduct advanced search techniques such as keyword weighting and proximity searches. Taken together, these helped me better understand how the algorithm and the index work together. I also read through mailing list posts from the project managers, specifically around changes to or the functioning of the algorithm, and read the release announcements carefully. 
+The thing is, we bring our experiences, our worldviews, our prejudices with us when we create things. We build those biases into our tools. When 22 year old upper middle class white software developers make decisions about how the world is, what they build is going to work really well for upper middle class white males, but maybe not for other people.
+
+Like the gym in the UK that made an online form, and if you selected the salutation "Dr." - it automatically set your gender to "Male" and your card wouldn't let you access the women's locker room.
+
 
 -----
 
 ### Slide 9:
 
-But looking at code or understanding the boundaries of the index will only get you so far, and risks fetishizing the algorithm. Algorithms exist to do something, to create outputs from inputs. We need to see them work.
-
-So, while the inner workings are still hidden, we can see what kinds of outputs we get by changing inputs.
-
-But typing in searches one at a time doesn't scale.
+Or the way Google Images originally would categorize images - here's a search from 2016. "Unprofessional hairstyles for work" showed a number of black women, while "professional hairstyles for work" showed all white women.
 
 -----
 
 ### Slide 10:
 
-So I captured the results as our users searched in Summon. This has the benefit of showing actual searches rather than hypothetical searches.
+That was 8 years ago, right? There probably aren't still issues, right?
 
-This is a simplified version of the jQuery function I used to capture search queries and Topic Explorer results. Whenever Summon executed a search and a Topic Explorer result was shown, the script would grab the search query and the heading, source, and text of the Topic Explorer result and send a POST request to a PHP script that parsed the data and stored it in a MySQL database. This method works for looking at the results of what other people are searching for, but you need to be cautious about privacy. In this case, searches that bring up Topic Explorer results are very general searches, often 1-2 terms. By not saving any information about who did the search, what other searches they did, or when the search was run, I lowered the possibility of capturing reidentifiable data about our users. 
+Let's do an experiment. Go to Google Images and search for "Appalachian photography".
 
-You could easily convert this to a bookmarklet to run on a page where you define a search, or create a bot or spider to scrape the page and store the results from all manner of algorithms: search results, database recommendations, spelling corrections, query expansions, autosuggestions, related topics, related searches, and more. (There are some legal concerns we'll get to in a moment with these approaches.)
+What do you see?
 
 -----
 
 ### Slide 11:
 
-I matched 8,000 search queries with their respective topic explorer results, and released them as a data set, if you want to look them over or use them in your research. The data set includes very general search terms and the respective Topic Explorer result for each.
+The Blue Ridge mountains are a mountain range in the Appalachians. So the photos should bear some resemblance, right? Maybe have some overlap?
 
-8,000 results is a lot of results when you are reviewing them one at a time by yourself. But to understand the workings of a complex algorithm? It's not nearly enough. But it's a start.
+Now search for "Blue Ridge Photography"
 
 -----
 
 ### Slide 12:
 
-I shared my data set with the Summon team in advance of publishing my results, which looked at the set of 8,000 results and found that the Topic Explorer algorithm was able to at least generally identify a topic about 90% of the time.
+Google would call these "glitches," because the algorithm is not working the way they expected it to. But remember that we encode our values and biases into the things we make. My colleague Scarlet said that "glitches are the unintentional exposure of those values."
 
 -----
 
 ### Slide 13:
 
-About 1% of the results were biased. The remaining 9% were 
-incorrect, but maybe not all wrong, like this search that equated the ubiquitous marketing concept of "branding" with Bondage, Discipline, Sadism, and Masochism.
+So here's a search result from our old Library Search tool, Summon. It's a known item search for a book, and the only two results are the specific book and a book on mental illness. The juxtaposition of these two books , as the only results, implies a sort of equivalency between mental illness and LGBTQ Information Needs.
 
 -----
 
 ### Slide 14:
 
-But often the incorrect results slipped into bias, reinforcing negative stereotypes, like a search for "women in film" that apparently couldn't imagine anything more relevant than an exploitation genre.
+This is how bias often presents itself. Not necessarily by explicitly coming out with biased results, but by making associations between things that highlight social biases.
 
 -----
 
 ### Slide 15:
 
-Or the tendency of the algorithm to latch on to phrasings like a Mad Libs search engine, like this search for the Sarah Gwyneth Ross' book *Birth of Feminism* that returned the *Birth of Tragedy* instead. This is what was behind the "women in the workforce" result my colleague Jeff showed me. You could also search for "heroes in the workforce" and get "women in the workforce."
+Here's another Library search tool called Primo, and it has an autocorrect algorithm that equated "new york waste" with "new york women."
 
 -----
 
@@ -123,102 +120,81 @@ Here Primo suggests that a search for "New York Waste" should have been a search
 
 ### Slide 17:
 
-I've also been able to find problematic results from colleagues on Twitter, like this one that Nadaleen Tempelman-Kluit posted from Primo, where it thinks a search for Children's Literature could only be made better by transforming it into a search for Children's Sex Literature.
+Here Primo thinks a search for Children's Literature could only be made better by transforming it into a search for Children's Sex Literature.
 
 -----
 
 ### Slide 18:
 
-But algorithms aren't just code and inputs and outputs. They are used by people in order to do something else. We need to study those effects, too, and this is where my research is taking me.
+Our old Library Search had a feature called Topic Explorer, that highlighted what a search was "about" - here it says that stress in the workplace is the same as "women in the workforce"
 
 -----
 
 ### Slide 19:
 
-Algorithms show and hide possibilities from users, suggesting what a search might really be about. In addition to asking what an algorithm looks at, and what kinds of results it returns, we need to ask how it affects the users who interact with the algorithm and its results. This is where ethnography and user research can come in. I will be talking to users, and running ethnographic experiments over the next year to better understand the impact that algorithmic outputs - both good and bad - have on learning and research.
+Here a search for mental illness is equated to a "myth."
 
 -----
 
 ### Slide 20:
 
-Here is a result that was shared with me by one of our users. It's a known item search for a book on the information needs of LGBT youth that returns only 2 items: the book and a guide to "mental illness." 
-
-As a researcher, results like these are often the ones that expose the inner workings of the algorithm more clearly. I can look at the metadata for that guide to mental illness and try to reverse engineer how it got there. They are like glitches in the Matrix.
-
-But for the user who was searching for this book? What was the impact of seeing these books next to each other? Looking at inputs and outputs alone won't tell us how these results affect our users. Merely returning some relevant results isn't good enough. What we show (and don't show) matters.
+The Birth of Feminism is equated to the birth of tragedy.
 
 -----
 
 ### Slide 21:
 
-These are challenging, scary, ethical issues. But library search tools are sold as neutral, objective places for learning and research. That is not the case, and part of the reason for auditing our algorithmic tools is to correct this kind of "objective" marketing,  but also to work with vendors to improve the algorithms.
-
+Our current library search also has some of these features that pick ONE "answer" for your search. We don't have them turned on because of results like this one, where a search for "racism" suggests you start looking into scientific racism, a debunked white supremacist theory from the 19th century.
 -----
 
 ### Slide 22:
 
-A word on the responsibilities of vendors. If your search tool reinforces and reproduces systemic racial, gender, religious, or other biases - it doesn't matter if you "didn't intend" to build a system with those biases. That's what you system does. It is your responsibility to make a system that is fair for all users. Your responsibility doesn't end when we go live with your tool.
+A lot of these biased results come about because of a sort of "Mad Libs" effect, where designers and developers are trying to match patterns of words. But sometimes we can see the logic behind why a result shows up that doesn't involve words, like this one that shows Clarence Thomas, an African American Supreme Court justice, next to a research starter on "Sexual harassment." Students of history will know why that image was picked, because his confirmation hearing was the first mainstream televised accusation of sexual harassment that really stuck in the public consciousness. But these hearings happened at last a decade before most of today's college students were born, so they might just see the heading "Sexual harassment" with an illustration of a black man.
 
 -----
 
 ### Slide 23:
 
-But these search results are also the most visible and used parts of our library websites, and so they speak to our users about our values. Yesterday my fellow *Weave Journal of Library User Experience* editor Angela Galvan gave the keynote at VALA in Melbourne. She noted "Glitches are the unintentional exposure of values." For those of us who study algorithms, problematic results give us a clearer window into what an algorithm values. But our users will read that as what we in the library value. It is our responsibility to ensure that the values we claim to have are what are reflected in our tools. Our responsibility doesn't end when we sign the license agreement.
+All of the results I've shown you in the screenshots have been blocked by the vendors. But there are still issues, because the haven't looked into the biases that were embedded in their systems to begin with. Let's explore a bit, shall we?
+
+Go to Davenport's website and search for the Birth of Tragedy. Let's identify how many different algorithms are on this results page. What ones are most at risk for exhibiting bias and why?
 
 -----
 
 ### Slide 24:
 
-Now I'm going to try to recruit you to study the algorithms in your library systems. These algorithms are not affected by some of the most challenging parts of researching commercial search algorithms. 
-
-For one, the pressures of capital and wealth creation are not as direct as in an advertising-supported search tool like Google. There are (theoretically) no ads in our discovery services. Libraries are the paying customer, not the end user.
+Now search for "women in film." What do the algorithms say?
 
 -----
 
 ### Slide 25:
 
-Because libraries are licensing this software, we expect that the vendor won't experiment with new features in our live discovery systems. And as of this moment, none of the vendors appears to be using machine learning algorithms to personalize search results for our users. (It will get there, but some of them are using tables for layout, so I think we're safe for a bit.) We can be pretty sure that all our users are seeing the same results for the same searches (except for some differences in on-campus and off-campus searches.)
+Let's go now to our Library Search. Search for "women." What do the algorithms suggest?
 
 -----
 
 ### Slide 26:
 
-And the content these search tools index isn't written to be searched in a search engine like web content. Much of it is written without worrying whether anyone will or can read and make sense of it, let alone a search engine. So when a result appears in a search, we can be reasonably sure it is there because of the algorithm, not manipulation on the part of an Assistant Professor of Botany.
+Besides the disastrous Research Starters algorithm, EBSCO recently launched an even worse feature called the Concept Map. We do not have this on, and you're about to see why. Let's go to Georgia State's website and open the concept map. No search for "Adolph Hitler" and examine all the results. Does this seem to cover all the concepts that explain Hitler?
 
 -----
 
 ### Slide 27:
 
-On the other hand, discovery systems have challenges that are not as common in other algorithmic systems. 
+Certainly Google, with it's army of employees, doesn't have as many issues, right? Let's try Google search and see what all the buzz is about in it's AI search.
 
-The most obvious is that search results from my discovery instance won't be the same for yours, because of the different collection practices of our institutions. This might not affect the "supporting" algorithms that are sprinkled around the main search results, like Topic Explorer or related searches, but it definitely affects the results from your collection.
+Start typing "Did Hitler" and see what the autosuggest tells us.
+
+Select "did hitler do any good" and evaluate the AI result up top.
 
 -----
 
 ### Slide 28:
 
-Trying to understand why something appears in a results set can be challenging, because items in a discovery service's index often blend all the varied metadata practices of hundreds or different database providers into one big, messy soup. Of course, they often have a more structured taxonomy, as well, but results may appear because one of your keywords matched a thesaurus entry for a subject term in an obscure database. This metadata opaqueness can complicate our understanding of how algorithms choose results.
+# Thoughts?
 
 -----
 
 ### Slide 29:
-
-Finally, if you want to study a tool that isn't the one your institution subscribes to, you may be thwarted by the End User License Agreement for the discovery service. Both (EDS) EBSCO discovery service and OCLC's Worldshare prohibit the search interface from being used by "unauthorized users," which is basically everyone but currently affiliated students, staff, faculty, or patrons at the subscribing institution. 
-
-Even if you could use the interfaces, none of us has the time to manually search and record results, so we'd ideally write a script to do this for us. But the license agreement may prohibit this, as well. (The Computer Fraud and Abuse Act is also so broad that even if the EULA didn't prohibit this, you might be in legal trouble from scraping results anyway.) If you subscribe to a service, you may be able to collect the results with a script in the guise of collecting usage data. That's what I did with Summon.
-
-(A quick point of order: I am not a lawyer and this was not legal advice.)
-
------
-
-### Slide 30:
-
-So, here's my pitch: help me and all of us better understand our library discovery algorithms. If you're an authorized user, or a representative from EBSCO or OCLC, I'd love to talk with you. The license agreements say I can't use the tools, but they never said anything about me asking another authorized user to collect search results.
-
-Better yet: dive in yourself and examine the algorithms, inputs, and outputs; talk to users, and share what you learn.
-
------
-
-### Slide 31:
 
 Thank you for listening.
