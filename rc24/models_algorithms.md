@@ -5,11 +5,11 @@
 
 -----
 
-### [gvsu.edu/library/bias](https://www.gvsu.edu/library/bias)
+<h3 style="color: #fff;"><a href="https://www.gvsu.edu/library/bias">gvsu.edu/library/bias</a></h3>
 
 -----
 
-<h1>Search Engines</h1> 
+<h1>Search <span class="blue">Engines</span></h1> 
 
 -----
 
@@ -72,7 +72,7 @@ Google Search bias issues from 2016.
 
 1. Open a Private Window
 2. Go to Google Image Search
-3. Search "Appalachian Photography"
+3. Search <span class="blue">Appalachian Photography</span>
 
 -----
 
@@ -80,7 +80,7 @@ Google Search bias issues from 2016.
 
 1. Open a Private Window
 2. Go to Google Image Search
-3. Search "Blue Ridge Photography"
+3. Search <span class="blue">Blue Ridge Photography</span>
 
 -----
 
@@ -158,7 +158,7 @@ Illustrating a summary of sexual harrassment by showing an African American man 
 ### Experiment
 
 1. Visit Davenport University's Library
-2. Search for **"The Birth of Tragedy"**
+2. Search for <span class="blue">The Birth of Tragedy</span>
 3. How many algorithmic results appear?
 4. Examine all the results.
 
@@ -167,7 +167,7 @@ Illustrating a summary of sexual harrassment by showing an African American man 
 ### Experiment
 
 1. Visit Davenport University's Library
-2. Search for **"Women in film"**
+2. Search for <span class="blue">Women in film</span>
 3. Examine all the different algorithmic results
 
 -----
@@ -175,7 +175,7 @@ Illustrating a summary of sexual harrassment by showing an African American man 
 ### Experiment
 
 1. Visit GVSU's Library Search
-2. Search for **"women"**
+2. Search for <span class="blue">women</span>
 3. Examine all the different algorithmic results
 
 -----
@@ -185,7 +185,7 @@ Illustrating a summary of sexual harrassment by showing an African American man 
 1. Visit Georgia State's Library
 2. Click on "Concept Map"
 3. Select the "Map" view
-3. Search for **"Adolph Hitler"**
+3. Search for <span class="blue">Adolph Hitler</span>
 4. Evaluate the results
 
 -----
@@ -193,7 +193,7 @@ Illustrating a summary of sexual harrassment by showing an African American man 
 ### Experiment
 
 1. Visit Google
-2. Type **"Did hitler"** and examine the suggestions
+2. Type <span class="blue">Did hitler</span> and examine the suggestions
 3. Select the first one
 4. Examine the AI generated result at the top.
 
